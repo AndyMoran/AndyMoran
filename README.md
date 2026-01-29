@@ -2,7 +2,7 @@
 
 I'm a data analyst with a focus on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
 
-My background is in urban planning (MPlan, University of Manchester), which originally sparked my interest in evidence‑based decision‑making. Today, I apply that same structured thinking to data analytics and data science.
+My background is in urban planning and sustainability (MPlan, University of Manchester), which originally sparked my interest in evidence‑based decision‑making. Today, I apply that same structured thinking to data analytics and data science.
 
 ---
 
