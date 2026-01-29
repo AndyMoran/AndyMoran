@@ -44,7 +44,7 @@ Each project is organised, documented, and cleaned for clarity.
 ## 🌱 What I'm Working On
 
 - Expanding my portfolio with deeper statistical and modelling projects  
-- Strengthening my Python and Bayesian analysis workflows  
+- Strengthening my Python,SQL and Bayesian analysis workflows  
 - Continuing to refine the clarity and structure of my analytical writing  
 
 ---
