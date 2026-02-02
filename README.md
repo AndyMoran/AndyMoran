@@ -1,6 +1,6 @@
 # Hi, I'm Andrew 👋
 
-I'm a data analyst and scinetist who a focuses on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
+I'm a data analyst and scientist who focuses on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
 
 
 ---
