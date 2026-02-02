@@ -20,7 +20,8 @@ I’m building a curated, professional portfolio that reflects both my formal tr
 
 ## 📂 Featured Projects
 
-1. Falcon 9 Bayesian Reliability Analysis
+### Falcon 9 Bayesian Reliability Analysis
+
 Techniques: Hierarchical Bayesian logistic regression, mission‑level random effects, expected‑value economics
 Focus: Engineering reliability & economic decision‑making
 Repo: https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
@@ -35,7 +36,8 @@ This project demonstrates:
 
 - combining statistical inference with economic reasoning
 
-2. Bellabeat Bayesian Activity Modelling
+### Bellabeat Bayesian Activity Modelling
+
 Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure, probability‑of‑superiority
 Focus: Behavioural segmentation & personalised engagement
 Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
@@ -52,7 +54,8 @@ This project demonstrates:
 
 - translating statistical output into product insights
 
-3. Cyclistic Bayesian Pricing & Behaviour Simulation
+### Cyclistic Bayesian Pricing & Behaviour Simulation
+
 Techniques: Monte Carlo simulation, Bayesian decision‑making, scenario analysis
 Focus: Pricing strategy under uncertainty
 Repo: https://github.com/AndyMoran/Cyclistic_bayesian_analysis
