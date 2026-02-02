@@ -19,15 +19,15 @@ I'm building a curated, professional portfolio that reflects both my formal trai
 ## 📂 Featured Projects
 
 ### **Falcon 9 Bayesian Reliability Analysis**
-A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
-**Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability
+A hierarchical Bayesian model of Falcon 9 booster landing reliability, combining logistic regression, mission‑level random effects, and expected‑value economics to quantify the financial impact of reusability.
+**Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
 
 ### **Bellabeat Bayesian Analysis**
-A hierarchical Bayesian model to understand how Bellabeat user personas differ in their hourly activity patterns.
+A hierarchical Gamma/Fourier Bayesian model of circadian activity patterns across Bellabeat personas, capturing smooth 24‑hour rhythms, uncertainty‑aware behavioural differences, and hour‑by‑hour probability‑of‑superiority.
 **Repo:** https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
 ### **Cyclistic Bayesian Analysis**
-Applies Bayesian modelling to understand Cyclistic rider behaviour and evaluate pricing strategy under uncertainty.   
+A Bayesian decision‑making project using Monte Carlo simulation to evaluate pricing strategy under uncertainty, modelling rider behaviour, revenue trade‑offs, and scenario‑based policy outcomes.  
 **Repo:** https://github.com/AndyMoran/Cyclistic_bayesian_analysis
 
 ### **Learning Portfolio (Completed Courses)**
