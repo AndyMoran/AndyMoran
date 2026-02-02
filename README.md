@@ -27,7 +27,7 @@ A hierarchical Bayesian model to understand how Bellabeat user personas differ i
 **Repo:** https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
 ### **Cyclistic Bayesian Analysis**
-A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
+Applies Bayesian modelling to understand Cyclistic rider behaviour and evaluate pricing strategy under uncertainty.   
 **Repo:** https://github.com/AndyMoran/Cyclistic_bayesian_analysis
 
 ### **Learning Portfolio (Completed Courses)**
