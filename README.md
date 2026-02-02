@@ -1,6 +1,7 @@
 # Hi, I'm Andrew 👋
 
 I’m a data analyst and data scientist who cares deeply about clarity, structure, and principled modelling. I enjoy taking messy, real‑world data, organising it with intention, and producing insights that are both technically rigorous and easy for stakeholders to understand.
+
 ---
 
 ## 🔭 Current Focus
