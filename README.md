@@ -26,9 +26,9 @@ A standalone exemplar project exploring booster landing reliability using hierar
 A hierarchical Bayesian model to understand how Bellabeat user personas differ in their hourly activity patterns.
 **Repo:** https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
-### **Falcon 9 Bayesian Reliability Analysis**
+### **Cyclistic Bayesian Analysis**
 A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
-**Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability
+**Repo:** https://github.com/AndyMoran/Cyclistic_bayesian_analysis
 
 ### **Learning Portfolio (Completed Courses)**
 A structured collection of projects from the Google Data Analytics and IBM Data Science programmes.  
