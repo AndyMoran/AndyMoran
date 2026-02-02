@@ -24,6 +24,7 @@ I’m building a curated, professional portfolio that reflects both my formal tr
 
 Techniques: Hierarchical Bayesian logistic regression, mission‑level random effects, expected‑value economics
 Focus: Engineering reliability & economic decision‑making
+
 Repo: https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
 
 A hierarchical Bayesian model estimating Falcon 9 booster landing reliability across missions, pads, and rocket versions. The analysis incorporates mission‑level random effects and posterior predictive checks, then extends into expected‑value economics to quantify the financial return of reusability under uncertainty.
@@ -40,6 +41,7 @@ This project demonstrates:
 
 Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure, probability‑of‑superiority
 Focus: Behavioural segmentation & personalised engagement
+
 Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
 A hierarchical Gamma/Fourier Bayesian model capturing 24‑hour activity rhythms across Bellabeat personas. The model replaces unstable lookup‑table approaches with smooth Fourier components, incorporates user‑level random intercepts, and uses probability‑of‑superiority to compare personas hour‑by‑hour.
@@ -58,6 +60,7 @@ This project demonstrates:
 
 Techniques: Monte Carlo simulation, Bayesian decision‑making, scenario analysis
 Focus: Pricing strategy under uncertainty
+
 Repo: https://github.com/AndyMoran/Cyclistic_bayesian_analysis
 
 A scenario‑based pricing analysis using Bayesian reasoning and Monte Carlo simulation to evaluate how pricing changes affect rider behaviour and revenue. The project simulates thousands of pricing outcomes to quantify risk, identify robust strategies, and support policy decisions.
@@ -75,6 +78,7 @@ This project demonstrates:
 ## Learning Portfolio (Completed Courses)
 Techniques: Data cleaning, wrangling, visualisation, structured reporting
 Focus: Foundations & breadth
+
 Repo: https://github.com/AndyMoran/learning-portfolio
 
 A curated collection of projects from the Google Data Analytics and IBM Data Science programmes. Each project is cleaned, organised, and documented to demonstrate foundational analytical skills and clear communication.**
