@@ -22,9 +22,9 @@ I'm building a curated, professional portfolio that reflects both my formal trai
 A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
 **Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability
 
-### **Falcon 9 Bayesian Reliability Analysis**
-A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
-**Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability
+### **Bellabeat Bayesian Analysis**
+A hierarchical Bayesian model to understand how Bellabeat user personas differ in their hourly activity patterns.
+**Repo:** https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
 ### **Falcon 9 Bayesian Reliability Analysis**
 A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
