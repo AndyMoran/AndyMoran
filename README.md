@@ -1,8 +1,7 @@
 # Hi, I'm Andrew 👋
 
-I'm a data analyst with a focus on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
+I'm a data analyst and scinetist who a focuses on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
 
-My background is in urban planning and sustainability (MPlan, University of Manchester), which originally sparked my interest in evidence‑based decision‑making. Today, I apply that same structured thinking to data analytics and data science.
 
 ---
 
@@ -18,6 +17,14 @@ I'm building a curated, professional portfolio that reflects both my formal trai
 ---
 
 ## 📂 Featured Projects
+
+### **Falcon 9 Bayesian Reliability Analysis**
+A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
+**Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability
+
+### **Falcon 9 Bayesian Reliability Analysis**
+A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
+**Repo:** https://github.com/AndyMoran/falcon9-bayesian-reliability
 
 ### **Falcon 9 Bayesian Reliability Analysis**
 A standalone exemplar project exploring booster landing reliability using hierarchical Bayesian modelling and expected‑value economics.  
