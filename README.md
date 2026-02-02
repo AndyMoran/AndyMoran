@@ -1,6 +1,6 @@
 # Hi, I'm Andrew 👋
 
-I'm a data analyst and scientist who focuses on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
+I'm a data analyst and data scientist who focuses on clear communication, thoughtful modelling, and well‑structured analytical work. I enjoy taking messy data, organising it with intention, and producing insights that are both technically sound and easy to understand.
 
 
 ---
@@ -60,20 +60,3 @@ Each project is organised, documented, and cleaned for clarity.
 
 I'm always open to conversations about data, modelling, or interesting analytical problems.  
 Feel free to explore my repos or reach out.
-
-
-
-<!--
-**AndyMoran/AndyMoran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
