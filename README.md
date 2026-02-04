@@ -73,6 +73,28 @@ This project demonstrates:
 
 - evaluating pricing trade‑offs with probabilistic thinking
 
+### VAR and Premier League Home Advantage: A Bayesian Analysis
+
+Techniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
+
+Focus: Evaluating VAR’s impact on competitive balance and home advantage
+
+Repo: https://github.com/AndyMoran/var_home_advantage_bayesian_analysis
+
+A Bayesian investigation into whether the introduction of VAR meaningfully changed home advantage in the Premier League. The analysis combines a Beta–Binomial model, a COVID‑era sensitivity check, long‑run trend diagnostics, and a Big Six vs others segmentation to separate genuine VAR effects from pandemic artefacts and secular decline. The project concludes with a business‑focused ROI assessment and strategic “So What?” framing for league stakeholders.
+
+This project demonstrates:
+
+- principled Bayesian inference and uncertainty communication
+
+- sensitivity analysis to identify confounding effects
+
+- segmentation for competitive‑balance evaluation
+
+- causal reasoning grounded in domain knowledge
+
+- translating statistical findings into business‑ready insights
+
 ---
 
 ## Learning Portfolio (Completed Courses)
