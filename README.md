@@ -1,52 +1,74 @@
 # Andrew Moran — Data Scientist
 
-**Clear communication** • **Principled modelling** • **Reproducible analysis**
+Clear communication • Principled modelling • Uncertainty‑aware decision‑making
 
-I specialise in building analytical work that is structured, interpretable, and grounded in sound statistical reasoning. My projects combine Bayesian modelling, simulation, and thoughtful narrative design to turn complex data into clear, decision‑ready insights.
+I build probabilistic models that behave well, converge reliably, and communicate uncertainty clearly. My work combines Bayesian inference, simulation, and structured narrative design to turn complex, messy data into decision‑ready insights. I’m especially interested in modelling uncertainty in energy systems, where risk, variability, and long‑horizon planning matter.
 
-This portfolio brings together my exemplar projects — each chosen to demonstrate a different modelling skillset and analytical approach.
----
+My portfolio follows a consistent professional workflow:
 
-## 🔭 Current Focus
+- Model justification
+
+- Convergence diagnostics (r̂, ESS, divergences, trace/energy plots)
+
+- Posterior predictive checks
+
+- Model comparison
+
+- Feature engineering rationale
+
+- Business relevance
+
+- Lessons learned
+
+- Literature integration
+
+This structure ensures transparency, reproducibility, and trustworthiness — the qualities that matter in real‑world modelling.
+
+# Current Focus
 
 I’m building a curated, professional portfolio that reflects both my formal training and my independent analytical interests. My work emphasises:
 
-- clean, readable analysis  
-- principled statistical reasoning  
-- reproducible workflows  
-- clear narrative structure  
+- clean, readable analysis
+
+- principled statistical reasoning
+
+- reproducible workflows
+
+- uncertainty‑aware modelling
+
+- clear narrative structure
+
 - decision‑ready insights
----
 
-## 📂 Featured Projects
+I’m now extending these skills into energy‑sector forecasting, risk modelling, and probabilistic optimisation.
 
-### Falcon 9 Bayesian Reliability Analysis
+# Featured Projects
 
-Techniques: Hierarchical Bayesian logistic regression, mission‑level random effects, expected‑value economics
+## Falcon 9 Bayesian Reliability Analysis
+
+Techniques: Bayesian logistic regression, calibration, validation
 Focus: Engineering reliability & economic decision‑making
-
 Repo: https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
 
-A hierarchical Bayesian model estimating Falcon 9 booster landing reliability across missions, pads, and rocket versions. The analysis incorporates mission‑level random effects and posterior predictive checks, then extends into expected‑value economics to quantify the financial return of reusability under uncertainty.
+A Bayesian model estimating Falcon 9 booster landing reliability across missions, pads, and rocket versions. Includes full convergence diagnostics, posterior predictive checks, and calibration/ROC validation. Extends into expected‑value economics to quantify the financial return of reusability under uncertainty.
 
-This project demonstrates:
+Demonstrates:
 
-- modelling reliability with hierarchical structure
+hierarchical reliability modelling
 
-- uncertainty‑aware engineering decision‑making
+uncertainty‑aware engineering decisions
 
-- combining statistical inference with economic reasoning
+combining inference with economic reasoning
 
-### Bellabeat Bayesian Activity Modelling
+## Bellabeat Bayesian Activity Modelling
 
-Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure, probability‑of‑superiority
+Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure
 Focus: Behavioural segmentation & personalised engagement
-
 Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
-A hierarchical Gamma/Fourier Bayesian model capturing 24‑hour activity rhythms across Bellabeat personas. The model replaces unstable lookup‑table approaches with smooth Fourier components, incorporates user‑level random intercepts, and uses probability‑of‑superiority to compare personas hour‑by‑hour.
+A hierarchical Gamma/Fourier model capturing 24‑hour activity rhythms across Bellabeat personas. Includes model comparison (WAIC/LOO), full diagnostics, and literature integration on circadian modelling. Uses probability‑of‑superiority to compare personas hour‑by‑hour.
 
-This project demonstrates:
+Demonstrates:
 
 - modelling cyclic behaviour with Fourier series
 
@@ -54,63 +76,52 @@ This project demonstrates:
 
 - uncertainty‑aware behavioural comparison
 
-- translating statistical output into product insights
-
-### Cyclistic Bayesian Pricing & Behaviour Simulation
+## Cyclistic Bayesian Pricing & Behaviour Simulation
 
 Techniques: Monte Carlo simulation, Bayesian decision‑making, scenario analysis
 Focus: Pricing strategy under uncertainty
-
 Repo: https://github.com/AndyMoran/Cyclistic_bayesian_analysis
 
-A scenario‑based pricing analysis using Bayesian reasoning and Monte Carlo simulation to evaluate how pricing changes affect rider behaviour and revenue. The project simulates thousands of pricing outcomes to quantify risk, identify robust strategies, and support policy decisions.
+A simulation‑based pricing model exploring how fare changes affect rider behaviour and revenue. Includes full convergence diagnostics, PPCs, and a clear justification for the modelling structure. Quantifies risk, identifies robust strategies, and supports policy decisions.
 
-This project demonstrates:
+Demonstrates:
 
 - simulation‑based decision‑making
 
 - modelling behavioural uncertainty
 
-- evaluating pricing trade‑offs with probabilistic thinking
+- evaluating pricing trade‑offs probabilistically
 
-### VAR and Premier League Home Advantage: A Bayesian Analysis
+## VAR and Premier League Home Advantage: A Bayesian AnalysisTechniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
 
-Techniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
-
-Focus: Evaluating VAR’s impact on competitive balance and home advantage
-
+Focus: Evaluating VAR’s impact on competitive balance
 Repo: https://github.com/AndyMoran/var_home_advantage_bayesian_analysis
 
-A Bayesian investigation into whether the introduction of VAR meaningfully changed home advantage in the Premier League. The analysis combines a Beta–Binomial model, a COVID‑era sensitivity check, long‑run trend diagnostics, and a Big Six vs others segmentation to separate genuine VAR effects from pandemic artefacts and secular decline. The project concludes with a business‑focused ROI assessment and strategic “So What?” framing for league stakeholders.
+A Bayesian investigation into whether VAR changed home advantage. Includes a full convergence section, PPCs, model justification, and a Big Six vs others segmentation. Sensitivity analysis shows that pandemic crowd‑effects, not VAR, explain most of the apparent shift.
 
-This project demonstrates:
+Demonstrates:
 
-- principled Bayesian inference and uncertainty communication
+- principled Bayesian inference
 
-- sensitivity analysis to identify confounding effects
+- sensitivity analysis to identify confounding
 
 - segmentation for competitive‑balance evaluation
 
-- causal reasoning grounded in domain knowledge
-
 - translating statistical findings into business‑ready insights
 
----
+# Learning Portfolio (Completed Courses)
 
-## Learning Portfolio (Completed Courses)
 Techniques: Data cleaning, wrangling, visualisation, structured reporting
 Focus: Foundations & breadth
-
 Repo: https://github.com/AndyMoran/learning-portfolio
 
-A curated collection of projects from the Google Data Analytics and IBM Data Science programmes. Each project is cleaned, organised, and documented to demonstrate foundational analytical skills and clear communication.**
+A curated collection of projects from the Google Data Analytics and IBM Data Science programmes. Cleaned, organised, and documented to demonstrate foundational analytical skills and clear communication.
 
+# Core Skills
 
-## 🧰 Core Skills
+- Bayesian modelling (PyMC, ArviZ)
 
-- Bayesian modelling (PyMC)
-
-- Monte Carlo simulation
+- Monte Carlo simulation & scenario analysis
 
 - Python (pandas, numpy, matplotlib, seaborn, scikit‑learn)
 
@@ -121,17 +132,26 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 - Data cleaning, wrangling, and visualisation
 
 - Clear technical writing and structured reporting
----
 
-## 🌱 What I'm Working On
+# What I'm Working On
 
-- Expanding my portfolio with deeper statistical and modelling projects  
-- Strengthening my Python,SQL and Bayesian analysis workflows  
-- Continuing to refine the clarity and structure of my analytical writing  
+- Expanding into energy‑sector probabilistic modelling
 
----
+- Strengthening my Bayesian and simulation workflows
 
-## 🤝 Let’s Connect
+- Building messy‑data projects using probabilistic forests and market‑maker models
 
-I'm always open to conversations about data, modelling, or interesting analytical problems.  
+- Continuing to refine the clarity and structure of my analytical writing
+
+## Learning & Growth
+
+- Completing Luis Serrano’s Math for Machine Learning
+
+- Building messy‑data projects using probabilistic forests and market‑maker models
+
+- Expanding into energy‑sector forecasting and risk modelling
+
+# Let’s Connect
+
+I’m always open to conversations about data, modelling, or interesting analytical problems.
 Feel free to explore my repos or reach out.
