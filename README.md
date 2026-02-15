@@ -44,37 +44,22 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 # Featured Projects
 
-## Falcon 9 Bayesian Reliability Analysis
+## VAR and Premier League Home Advantage: A Bayesian AnalysisTechniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
 
-Techniques: Bayesian logistic regression, calibration, validation
-Focus: Engineering reliability & economic decision‑making
-Repo: https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
+Focus: Evaluating VAR’s impact on competitive balance
+Repo: https://github.com/AndyMoran/var_home_advantage_bayesian_analysis
 
-A Bayesian model estimating Falcon 9 booster landing reliability across missions, pads, and rocket versions. Includes full convergence diagnostics, posterior predictive checks, and calibration/ROC validation. Extends into expected‑value economics to quantify the financial return of reusability under uncertainty.
-
-Demonstrates:
-
-hierarchical reliability modelling
-
-uncertainty‑aware engineering decisions
-
-combining inference with economic reasoning
-
-## Bellabeat Bayesian Activity Modelling
-
-Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure
-Focus: Behavioural segmentation & personalised engagement
-Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
-
-A hierarchical Gamma/Fourier model capturing 24‑hour activity rhythms across Bellabeat personas. Includes model comparison (WAIC/LOO), full diagnostics, and literature integration on circadian modelling. Uses probability‑of‑superiority to compare personas hour‑by‑hour.
+A Bayesian investigation into whether VAR changed home advantage. Includes a full convergence section, PPCs, model justification, and a Big Six vs others segmentation. Sensitivity analysis shows that pandemic crowd‑effects, not VAR, explain most of the apparent shift.
 
 Demonstrates:
 
-- modelling cyclic behaviour with Fourier series
+- principled Bayesian inference
 
-- principled handling of right‑skewed data
+- sensitivity analysis to identify confounding
 
-- uncertainty‑aware behavioural comparison
+- segmentation for competitive‑balance evaluation
+
+- translating statistical findings into business‑ready insights
 
 ## Cyclistic Bayesian Pricing & Behaviour Simulation
 
@@ -92,22 +77,37 @@ Demonstrates:
 
 - evaluating pricing trade‑offs probabilistically
 
-## VAR and Premier League Home Advantage: A Bayesian AnalysisTechniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
+## Falcon 9 Bayesian Reliability Analysis
 
-Focus: Evaluating VAR’s impact on competitive balance
-Repo: https://github.com/AndyMoran/var_home_advantage_bayesian_analysis
+Techniques: Bayesian logistic regression, calibration, validation
+Focus: Engineering reliability & economic decision‑making
+Repo: https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
 
-A Bayesian investigation into whether VAR changed home advantage. Includes a full convergence section, PPCs, model justification, and a Big Six vs others segmentation. Sensitivity analysis shows that pandemic crowd‑effects, not VAR, explain most of the apparent shift.
+A Bayesian model estimating Falcon 9 booster landing reliability across missions, pads, and rocket versions. Includes full convergence diagnostics, posterior predictive checks, and calibration/ROC validation. Extends into expected‑value economics to quantify the financial return of reusability under uncertainty.
 
 Demonstrates:
 
-- principled Bayesian inference
+- hierarchical reliability modelling
 
-- sensitivity analysis to identify confounding
+- uncertainty‑aware engineering decisions
 
-- segmentation for competitive‑balance evaluation
+- combining inference with economic reasoning
 
-- translating statistical findings into business‑ready insights
+## Bellabeat Bayesian Activity Modelling
+
+Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure
+Focus: Behavioural segmentation & personalised engagement
+Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
+
+A hierarchical Gamma/Fourier model capturing 24‑hour activity rhythms across Bellabeat personas. Includes model comparison (WAIC/LOO), full diagnostics, and literature integration on circadian modelling. Uses probability‑of‑superiority to compare personas hour‑by‑hour.
+
+Demonstrates:
+
+- modelling cyclic behaviour with Fourier series
+
+- principled handling of right‑skewed data
+
+- uncertainty‑aware behavioural comparison
 
 # Learning Portfolio (Completed Courses)
 
