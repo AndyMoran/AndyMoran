@@ -1,8 +1,10 @@
-# Andrew Moran — Data Scientist
+# Andy Moran — Data Scientist
 
-Clear communication • Principled modelling • Uncertainty‑aware decision‑making
+I’m a data scientist who likes clear thinking, honest models, and work that stands up to scrutiny. I build Bayesian and simulation‑based models that behave well, converge cleanly, and tell you what they know — and what they don’t. Before data science, I worked as Senior Technical Writer at Oracle Redwood Shores, San Francisco, so clarity, structure and clear communication are second nature to me.
 
-I build probabilistic models that behave well, converge reliably, and communicate uncertainty clearly. My work combines Bayesian inference, simulation, and structured narrative design to turn complex, messy data into decision‑ready insights. I’m especially interested in modelling uncertainty in energy systems, where risk, variability, and long‑horizon planning matter.
+I enjoy exploring problems where uncertainty matters: forecasting, risk, behaviour, and messy real‑world data. I’m now turning that focus toward the energy sector, where variability and long‑term planning shape every decision. My goal is simple: build models that help people make better choices.
+
+I value readable code, reproducible workflows, and explanations that make sense to non‑experts. If a model can’t be explained, I don’t trust it. If it can’t be validated, I don’t use it. And if it can’t help someone make a decision, I rethink it.
 
 My portfolio follows a consistent professional workflow:
 
@@ -145,7 +147,7 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 
 ## Learning & Growth
 
-- Completing Luis Serrano’s Math for Machine Learning
+- Completing Luis Serrano’s Math for Machine Learning to ensure technical depth
 
 - Building messy‑data projects using probabilistic forests and market‑maker models
 
