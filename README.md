@@ -1,4 +1,4 @@
-# Andrew Moran — Data Analyst & Data Scientist
+# Andrew Moran — Data Scientist
 
 **Clear communication** • **Principled modelling** • **Reproducible analysis**
 
