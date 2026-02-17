@@ -6,15 +6,15 @@ I enjoy exploring problems where uncertainty matters: forecasting, risk, behavio
 
 I value readable code, reproducible workflows, and explanations that make sense to non‑experts. If a model can’t be explained, I don’t trust it. If it can’t be validated, I don’t use it. And if it can’t help someone make a decision, I rethink it.
 
-My portfolio follows a consistent professional workflow:
+My portfolio contains:
 
-- Model justification
+- Model justifications
 
 - Convergence diagnostics (r̂, ESS, divergences, trace/energy plots)
 
 - Posterior predictive checks
 
-- Model comparison
+- Model comparisons
 
 - Feature engineering rationale
 
