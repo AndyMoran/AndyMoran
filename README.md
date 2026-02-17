@@ -1,6 +1,6 @@
 # Andy Moran — Data Scientist
 
-I’m a data scientist who can build Bayesian and simulation‑based models that behave well, converge cleanly, and tell you what they know — and what they don’t. Before data science, I worked as Senior Technical Writer at Oracle Redwood Shores, San Francisco, so clarity, structure and clear communication are second nature to me.
+I’m a data scientist who can build Bayesian and simulation‑based models that behave well, converge cleanly, and, show and tell you what they know — and what they don’t. Before data science, I worked as Senior Technical Writer at Oracle Redwood Shores, San Francisco, so clarity, structure and clear communication are second nature to me.
 
 I enjoy exploring problems where uncertainty matters: forecasting, risk, behaviour, and messy real‑world data. I’m now turning that focus toward the energy sector, where variability and long‑term planning shape every decision. My goal is simple: build models that help people make better choices.
 
