@@ -50,7 +50,7 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 Techniques: Bayesian modelling, posterior predictive simulation, null‑model construction
 Focus: Detecting when rolling‑mean “signals” are artefacts rather than genuine effects
-Repo: https://github.com/AndyMoran/xg-spread-model (github.com in Bing)
+Repo: https://github.com/AndyMoran/xg-spread-model
 
 A Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
 
