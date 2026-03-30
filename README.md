@@ -1,4 +1,4 @@
-Andy Moran — Quantitative Researcher
+# Andy Moran — Quantitative Researcher
 
 I’ve long been interested decisions made under uncertainty. Annie Duke’s Thinking in Bets was an early influence, and it pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straighforward” to “this is more a lot complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get thing right.
 
