@@ -1,11 +1,11 @@
 # Andy Moran — Quantitative Researcher
 
-I’ve long been interested decisions made under uncertainty. Annie Duke’s Thinking in Bets was an early influence, and it pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straightforward” to “this is a lot more complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get thing right.
+I’ve long been interested in decisions made under uncertainty. And Annie Duke’s Thinking in Bets was an early influence, it pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straightforward” to “this is a lot more complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get thing right.
 
-My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful: where the methodology breaks
+My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful though: where the methodology breaks
 and why.
 
-So, I’m interested in how systems fail — not in theory, but in the way real things break when assumptions give out. I care about the ground truth, fast feedback loops, and models that don’t hide behind a slide deck. If the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints.
+So, I’m interested in how systems fail — not in theory, but in the way real things break when assumptions fail. I care most about the ground truth, value fast feedback loops, and models that don’t hide behind a slide deck. I think if the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints.
 
 I’m not drawn to performative work. As David Graeber put it, some jobs exist to look busy rather than to understand anything. I prefer environments where the ground truth matters, the uncertainty matters, and the model has to earn its keep.
 
@@ -37,7 +37,7 @@ Techniques: Bayesian modelling, posterior predictive simulation, null‑model co
 Focus: Detecting when rolling‑mean “signals” are artefacts rather than genuine effects
 Repo: https://github.com/AndyMoran/xg-spread-model
 
-A Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
+This project started as a search for signal and ended as a sober lesson. The result a Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
 
 Demonstrates:
 
