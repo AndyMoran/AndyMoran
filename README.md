@@ -1,30 +1,15 @@
-# Andy Moran — Data Scientist
+Andy Moran — Quantitative Researcher
 
-I’m a data scientist who builds Bayesian and simulation‑based models that behave well, converge cleanly, and, show and tell you what they know — and what they don’t. Before data science, I worked as Senior Technical Writer at Oracle Redwood Shores, San Francisco, so clarity, structure and clear communication are second nature.
+I’ve long been interested decisions made under uncertainty. Annie Duke’s Thinking in Bets was an early influence, and it pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straighforward” to “this is more a lot complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get thing right.
 
-I enjoy exploring problems where uncertainty matters: forecasting, risk, behaviour, and messy real‑world data. I’m now turning that focus toward the energy sector, where variability and long‑term planning shape every decision. My goal is simple: build models that help people make better choices.
+My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful: where the methodology breaks
+and why.
 
-I value readable code, reproducible workflows, and explanations that make sense to non‑experts. If a model can’t be explained, I don’t trust it. If it can’t be validated, I don’t use it. And if it can’t help someone make a decision, I rethink it.
+So, I’m interested in how systems fail — not in theory, but in the way real things break when assumptions give out. I care about the ground truth, fast feedback loops, and models that don’t hide behind a slide deck. If the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints.
 
-My portfolio contains:
+I’m not drawn to performative work. As David Graeber put it, some jobs exist to look busy rather than to understand anything. I prefer environments where the ground truth matters, the uncertainty matters, and the model has to earn its keep.
 
-- Model justifications
-
-- Convergence diagnostics (r̂, ESS, divergences, trace/energy plots)
-
-- Posterior predictive checks
-
-- Model comparisons
-
-- Feature engineering rationale
-
-- Business relevance
-
-- Lessons learned
-
-- Literature integration
-
-This structure ensures transparency, reproducibility, and trustworthiness — the qualities that matter in real‑world modelling.
+I lean toward Bayesian modelling, regime‑switching processes, and causal inference — tools that make uncertainty explicit rather than pretending it isn’t there.
 
 # Current Focus
 
