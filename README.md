@@ -156,7 +156,7 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 
 - Expanding into energy‑sector forecasting and risk modelling
 
-# Let’s Connect
+# Connect
 
-I’m always open to conversations about data, modelling, or interesting analytical problems.
+Open to conversations about data, modelling, or interesting analytical problems.
 Feel free to explore my repos or reach out.
