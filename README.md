@@ -46,6 +46,24 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 # Featured Projects
 
+## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
+
+Techniques: Bayesian modelling, posterior predictive simulation, null‑model construction
+Focus: Detecting when rolling‑mean “signals” are artefacts rather than genuine effects
+Repo: https://github.com/AndyMoran/xg-spread-model (github.com in Bing)
+
+A Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
+
+Demonstrates:
+
+principled null‑model construction
+
+posterior predictive simulation for false‑positive detection
+
+diagnosing artefacts in rolling‑window time‑series models
+
+clear communication of uncertainty and model limitations
+
 ## VAR and Premier League Home Advantage: A Bayesian AnalysisTechniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
 
 Focus: Evaluating VAR’s impact on competitive balance
