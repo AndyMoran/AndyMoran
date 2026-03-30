@@ -1,6 +1,6 @@
 # Andy Moran — Quantitative Researcher
 
-I’ve long been interested in decisions made under uncertainty. And Annie Duke’s Thinking in Bets was an early influence, it pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straightforward” to “this is a lot more complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get thing right.
+I’ve long been interested in decisions made under uncertainty. Annie Duke’s Thinking in Bets was an early influence. This book pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straightforward” to “this is a lot more complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get things right.
 
 My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful though: where the methodology breaks
 and why.
@@ -49,8 +49,9 @@ diagnosing artefacts in rolling‑window time‑series models
 
 clear communication of uncertainty and model limitations
 
-## VAR and Premier League Home Advantage: A Bayesian AnalysisTechniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
+## VAR and Premier League Home Advantage: A Bayesian Analysis
 
+Techniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
 Focus: Evaluating VAR’s impact on competitive balance
 Repo: https://github.com/AndyMoran/var_home_advantage_bayesian_analysis
 
@@ -151,8 +152,6 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 ## Learning & Growth
 
 - Completing Luis Serrano’s Math for Machine Learning to ensure technical depth
-
-- Building messy‑data projects using probabilistic forests and market‑maker models
 
 - Expanding into energy‑sector forecasting and risk modelling
 
