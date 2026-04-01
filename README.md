@@ -5,6 +5,7 @@ My background is in policy analysis under uncertainty. My MPlan research at Manc
 I've now worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like "this seems straightforward" to "this is a lot more complicated than I thought." I've iterated, failed, and actively invited criticism, because I want to get things right.
 
 My last completed project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn't prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. I abandoned the signal because I care most about the ground truth, value fast feedback loops, and models that don't hide behind a slide deck. If the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints. Performative work appeals even less.
+
 I'm currently applying Bayesian modelling, regime-switching processes, causal inference, and structured null testing to GB electricity markets. The specific question: has the evening demand ramp already begun to change shape as EV adoption grows, and what is that structural shift worth to a storage asset before the forward curve prices it in?
 
 
