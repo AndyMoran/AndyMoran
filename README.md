@@ -49,21 +49,34 @@ diagnosing artefacts in rolling‑window time‑series models
 
 clear communication of uncertainty and model limitations
 
-
 ## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
 
-EV smart charging and storage dispatch optimisationregime detection diurnal harmonic analysis battery dispatch causal inference
+Techniques: causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
 
-[→ Repository] (in progress)
+Focus: detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
 
-GB evening demand shape is changing as EV adoption grows and smart charging mandates take effect. The question for a storage asset is not whether the shape is changing — it is — but when the change becomes large enough to materially affect the battery arbitrage spread, and what that shift is worth in NPV terms.
+Repo: (in progress)
 
-This project builds a detection framework for structural change in the GB evening ramp using Elexon half-hourly settlement data, DVLA EV registration data, and OZEV chargepoint installation data. The identification strategy uses the smart charging mandate as a quasi-experimental treatment — its implementation date is unambiguous in a way that gradual adoption curves are not.
+GB’s evening demand shape is shifting as EV adoption grows and smart‑charging mandates take effect. For a storage asset, the question is not whether the shape is changing, it is, but when the change becomes large enough to affect the arbitrage spread, and what that shift is worth in NPV terms. 
 
-The commercial deliverable is an option value calculation: the NPV difference between a 2MW battery asset operating in a pre-ramp-flattening price regime versus a post-flattening one, reported by adoption scenario and gas price scenario. This is the number a storage investor needs before the market prices the shift in.
+This project builds a detection framework for structural change in the GB evening ramp using Elexon half‑hourly settlement data, DVLA EV registrations, and OZEV chargepoint installation data. The identification strategy uses the smart‑charging mandate as a quasi‑experimental treatment: its implementation date is unambiguous in a way that gradual adoption curves are not. 
 
-The diagnostic framework from the xG project carries over directly. The four-step null testing sequence runs on GB settlement data before any signal pipeline is built.
-Currently in active development. Notebooks and interim results added as completed.
+The commercial deliverable is an option‑value calculation comparing a 2MW storage asset operating in pre‑flattening and post‑flattening price regimes, reported by adoption and gas‑price scenario. The diagnostic discipline from the xG project carries over directly: a four‑step null‑testing sequence runs before any signal pipeline is built. 
+
+Currently in active development.
+
+Demonstrates:
+
+structural‑change detection in noisy, confounded markets
+
+causal inference with high‑frequency controls (wind forecast error, interconnectors, demand, gas)
+
+sunset‑adjusted diurnal window construction
+
+option‑value modelling for storage assets
+
+principled null‑testing and adversarial falsification
+
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
