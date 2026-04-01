@@ -2,14 +2,14 @@
 
 I’ve long been interested in decisions made under uncertainty. Annie Duke’s Thinking in Bets was an early influence. This book pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straightforward” to “this is a lot more complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get things right.
 
-My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful though: where the methodology breaks
-and why.
+My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful though: where the methodology breaks and why.
 
 So, I’m interested in how systems fail — not in theory, but in the way real things break when assumptions fail. I care most about the ground truth, value fast feedback loops, and models that don’t hide behind a slide deck. I think if the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints.
 
 I’m not drawn to performative work. As David Graeber put it, some jobs exist to look busy rather than to understand anything. I prefer environments where the ground truth matters, the uncertainty matters, and the model has to earn its keep.
 
 I lean toward Bayesian modelling, regime‑switching processes, and causal inference — tools that make uncertainty explicit rather than pretending it isn’t there.
+
 
 # Current Focus
 
@@ -157,5 +157,9 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 
 # Connect
 
-Open to conversations about data, modelling, or interesting analytical problems.
-Feel free to explore my repos or reach out.
+Building toward energy trading and storage dispatch analytics.
+Available for coffee chats — particularly interested in talking
+to people working on storage optimisation, flexibility markets,
+and DER price impact. Feel free to explore the repositories
+or reach out directly.
+andrewgmoran@gmail.com
