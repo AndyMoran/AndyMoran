@@ -34,7 +34,9 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 ## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
 Techniques: Bayesian modelling, posterior predictive simulation, null‑model construction
-Focus: Detecting when rolling‑mean “signals” are artefacts rather than genuine effects
+
+Focus: Detecting when rolling‑mean “signals” are artefacts rather than genuine effects.
+
 Repo: https://github.com/AndyMoran/xg-spread-model
 
 This project started as a search for signal and ended as a sober lesson. The result a Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
@@ -55,7 +57,7 @@ Techniques: causal inference, DiD with high‑frequency controls, regime detecti
 
 Focus: detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
 
-Repo: (in progress)
+Repo: https://github.com/AndyMoran/ahead-of-the-curve
 
 GB’s evening demand shape is shifting as EV adoption grows and smart‑charging mandates take effect. For a storage asset, the question is not whether the shape is changing, it is, but when the change becomes large enough to affect the arbitrage spread, and what that shift is worth in NPV terms. 
 
