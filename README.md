@@ -158,7 +158,7 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 # Connect
 
 Building toward energy trading and storage dispatch analytics.
-Available for coffee chats — particularly interested in talking
+Available for coffee — particularly interested in talking
 to people working on storage optimisation, flexibility markets,
 and DER price impact. Feel free to explore the repositories
 or reach out directly.
