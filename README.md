@@ -1,14 +1,9 @@
 # Andy Moran — Quantitative Researcher
 
-I’ve long been interested in decisions made under uncertainty. Annie Duke’s Thinking in Bets was an early influence. This book pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly. I’ve worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like “this seems straightforward” to “this is a lot more complicated than I thought.” I've iterated and failed and implemented adversarial reviews happily, because I want to get things right.
-
-My latest project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn’t prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. It did prove something more useful though: where the methodology breaks and why.
-
-So, I’m interested in how systems fail — not in theory, but in the way real things break when assumptions fail. I care most about the ground truth, value fast feedback loops, and models that don’t hide behind a slide deck. I think if the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints.
-
-I’m not drawn to performative work. As David Graeber put it, some jobs exist to look busy rather than to understand anything. I prefer environments where the ground truth matters, the uncertainty matters, and the model has to earn its keep.
-
-I lean toward Bayesian modelling, regime‑switching processes, and causal inference — tools that make uncertainty explicit rather than pretending it isn’t there.
+My background is in policy analysis under uncertainty. My MPlan research at Manchester used Cuba's post-Soviet subsidy collapse as a structural transfer model — specifically modelling how Manchester's food system would respond to a comparable climate-driven shock, and what that implies for UK policy under energy crisis conditions. The research was interesting. The frustration was that its prescriptions couldn't be measured. Reading Annie Duke's Thinking in Bets and her probabilistic approach to decision-making pushed me toward a more formal path: data analytics, data science, and the maths needed to understand models properly.
+I've now worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that feel like "this seems straightforward" to "this is a lot more complicated than I thought." I've iterated, failed, and actively invited criticism, because I want to get things right.
+My last completed project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn't prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. I abandoned the signal because I care most about the ground truth, value fast feedback loops, and models that don't hide behind a slide deck. If the world disagrees with the model, the world wins. Honesty appeals to me even if it disappoints. Performative work appeals even less.
+I'm currently applying Bayesian modelling, regime-switching processes, causal inference, and structured null testing to GB electricity markets. The specific question: has the evening demand ramp already begun to change shape as EV adoption grows, and what is that structural shift worth to a storage asset before the forward curve prices it in?
 
 
 # Current Focus
@@ -48,6 +43,18 @@ posterior predictive simulation for false‑positive detection
 diagnosing artefacts in rolling‑window time‑series models
 
 clear communication of uncertainty and model limitations
+
+
+## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
+
+EV smart charging and storage dispatch optimisationregime detection diurnal harmonic analysis battery dispatch causal inference
+[→ Repository] (in progress)
+GB evening demand shape is changing as EV adoption grows and smart charging mandates take effect. The question for a storage asset is not whether the shape is changing — it is — but when the change becomes large enough to materially affect the battery arbitrage spread, and what that shift is worth in NPV terms.
+This project builds a detection framework for structural change in the GB evening ramp using Elexon half-hourly settlement data, DVLA EV registration data, and OZEV chargepoint installation data. The identification strategy uses the smart charging mandate as a quasi-experimental treatment — its implementation date is unambiguous in a way that gradual adoption curves are not.
+The commercial deliverable is an option value calculation: the NPV difference between a 2MW battery asset operating in a pre-ramp-flattening price regime versus a post-flattening one, reported by adoption scenario and gas price scenario. This is the number a storage investor needs before the market prices the shift in.
+The diagnostic framework from the xG project carries over directly. The four-step null testing sequence runs on GB settlement data before any signal pipeline is built.
+Currently in active development. Notebooks and interim results added as completed.
+
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
