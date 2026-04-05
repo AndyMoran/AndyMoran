@@ -119,7 +119,9 @@ Demonstrates:
 ## Falcon 9 Bayesian Reliability Analysis
 
 Techniques: Bayesian logistic regression, calibration, validation
+
 Focus: Engineering reliability & economic decision‑making
+
 Repo: https://github.com/AndyMoran/falcon9-bayesian-reliability-analysis
 
 A Bayesian model estimating Falcon 9 booster landing reliability across missions, pads, and rocket versions. Includes full convergence diagnostics, posterior predictive checks, and calibration/ROC validation. Extends into expected‑value economics to quantify the financial return of reusability under uncertainty.
