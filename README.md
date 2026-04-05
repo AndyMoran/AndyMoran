@@ -31,6 +31,30 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 # Featured Projects
 
+## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
+
+**Techniques:** causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
+
+**Focus:** detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
+
+**Repo:** https://github.com/AndyMoran/ahead-of-the-curve
+
+GB's evening demand shape is shifting as EV adoption grows and smart‑charging mandates take effect. For a storage asset, the question is not whether the shape will change but when the change becomes large enough to affect the arbitrage spread, and what that shift is worth in NPV terms.
+
+This project builds a detection framework for structural change in the GB evening ramp using Elexon half‑hourly settlement data, DVLA EV registrations, and NESO generation and demand data. The identification strategy uses the smart‑charging mandate as a quasi‑experimental treatment: its implementation date is unambiguous in a way that gradual adoption curves are not.
+
+The pre-registered hard gate failed at Notebook 02. After controlling for wind forecast error, no residual chargepoint signal is detectable in GB day-ahead prices (wind-controlled Spearman ρ = −0.084, p = 0.575). The current shiftable load of ~1 GW sits below the detection threshold against ~1.4 GW of wind noise. The project stops here by design.
+
+The null result is commercially useful: the smart charging effect is not yet priced into the spread distribution, and dispatch models require no adjustment today. The minimum detectable stock estimate (~12M compliant chargepoints, ~25 GW shiftable load) implies the signal will not be detectable until GB BEV stock approaches 8 million vehicles — projected around 2032–2035 on central adoption forecasts. The framework is ready to rerun at that point.
+
+Demonstrates:
+
+- principled null‑testing with a pre-registered hard gate — fail fast, move on
+- structural‑change detection in noisy, confounded markets
+- causal inference with high‑frequency controls (wind forecast error, interconnectors, demand)
+- sunset‑adjusted diurnal window construction
+- minimum detectable effect estimation and revisit threshold quantification
+
 ## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
 **Techniques:** Bayesian modelling, posterior predictive simulation, null‑model construction
@@ -50,34 +74,6 @@ Demonstrates:
 - diagnosing artefacts in rolling‑window time‑series models
 
 - clear communication of uncertainty and model limitations
-
-## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
-
-**Techniques:** causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
-
-**Focus:** detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
-
-**Repo:** https://github.com/AndyMoran/ahead-of-the-curve
-
-GB’s evening demand shape is shifting as EV adoption grows and smart‑charging mandates take effect. For a storage asset, the question is not whether the shape is changing, it is, but when the change becomes large enough to affect the arbitrage spread, and what that shift is worth in NPV terms. 
-
-This project builds a detection framework for structural change in the GB evening ramp using Elexon half‑hourly settlement data, DVLA EV registrations, and OZEV chargepoint installation data. The identification strategy uses the smart‑charging mandate as a quasi‑experimental treatment: its implementation date is unambiguous in a way that gradual adoption curves are not. 
-
-The commercial deliverable is an option‑value calculation comparing a 2MW storage asset operating in pre‑flattening and post‑flattening price regimes, reported by adoption and gas‑price scenario. The diagnostic discipline from the xG project carries over directly: a four‑step null‑testing sequence runs before any signal pipeline is built. 
-
-Currently in active development.
-
-Demonstrates:
-
-- structural‑change detection in noisy, confounded markets
-
-- causal inference with high‑frequency controls (wind forecast error, interconnectors, demand, gas)
-
-- sunset‑adjusted diurnal window construction
-
-- option‑value modelling for storage assets
-
-- principled null‑testing and adversarial falsification
 
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
