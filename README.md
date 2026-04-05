@@ -53,11 +53,11 @@ Demonstrates:
 
 ## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
 
-Techniques: causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
+**Techniques:** causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
 
-Focus: detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
+**Focus:** detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
 
-Repo: https://github.com/AndyMoran/ahead-of-the-curve
+**Repo:** https://github.com/AndyMoran/ahead-of-the-curve
 
 GB’s evening demand shape is shifting as EV adoption grows and smart‑charging mandates take effect. For a storage asset, the question is not whether the shape is changing, it is, but when the change becomes large enough to affect the arbitrage spread, and what that shift is worth in NPV terms. 
 
@@ -69,15 +69,15 @@ Currently in active development.
 
 Demonstrates:
 
-structural‑change detection in noisy, confounded markets
+- structural‑change detection in noisy, confounded markets
 
-causal inference with high‑frequency controls (wind forecast error, interconnectors, demand, gas)
+- causal inference with high‑frequency controls (wind forecast error, interconnectors, demand, gas)
 
-sunset‑adjusted diurnal window construction
+- sunset‑adjusted diurnal window construction
 
-option‑value modelling for storage assets
+- option‑value modelling for storage assets
 
-principled null‑testing and adversarial falsification
+- principled null‑testing and adversarial falsification
 
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
@@ -100,9 +100,11 @@ Demonstrates:
 
 ## Cyclistic Bayesian Pricing & Behaviour Simulation
 
-Techniques: Monte Carlo simulation, Bayesian decision‑making, scenario analysis
-Focus: Pricing strategy under uncertainty
-Repo: https://github.com/AndyMoran/Cyclistic_bayesian_analysis
+**Techniques:** Monte Carlo simulation, Bayesian decision‑making, scenario analysis
+
+**Focus:** Pricing strategy under uncertainty
+
+**Repo:** https://github.com/AndyMoran/Cyclistic_bayesian_analysis
 
 A simulation‑based pricing model exploring how fare changes affect rider behaviour and revenue. Includes full convergence diagnostics, PPCs, and a clear justification for the modelling structure. Quantifies risk, identifies robust strategies, and supports policy decisions.
 
@@ -132,11 +134,11 @@ Demonstrates:
 
 ## Bellabeat Bayesian Activity Modelling
 
-Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure
+**Techniques:** Gamma likelihood, Fourier circadian modelling, hierarchical structure
 
-Focus: Behavioural segmentation & personalised engagement
+**Focus:** Behavioural segmentation & personalised engagement
 
-Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
+**Repo:** https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
 A hierarchical Gamma/Fourier model capturing 24‑hour activity rhythms across Bellabeat personas. Includes model comparison (WAIC/LOO), full diagnostics, and literature integration on circadian modelling. Uses probability‑of‑superiority to compare personas hour‑by‑hour.
 
@@ -150,9 +152,11 @@ Demonstrates:
 
 # Learning Portfolio (Completed Courses)
 
-Techniques: Data cleaning, wrangling, visualisation, structured reporting
-Focus: Foundations & breadth
-Repo: https://github.com/AndyMoran/learning-portfolio
+**Techniques:** Data cleaning, wrangling, visualisation, structured reporting
+
+**Focus:** Foundations & breadth
+
+**Repo:** https://github.com/AndyMoran/learning-portfolio
 
 A curated collection of projects from the Google Data Analytics and IBM Data Science programmes. Cleaned, organised, and documented to demonstrate foundational analytical skills and clear communication.
 
@@ -185,6 +189,8 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 ## Learning & Growth
 
 - Completing Luis Serrano’s Math for Machine Learning to ensure technical depth
+  
+- Mathematics for Machine Learning, Imperial
 
 - Expanding into energy‑sector forecasting and risk modelling
 
