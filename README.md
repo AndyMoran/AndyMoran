@@ -33,6 +33,8 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 ## Ahead of the Curve — Detecting when EV smart‑charging affects the evening–overnight arbitrage spread
 
+**Result:** Signal not detected. Pre-registered hard gate failed at Notebook 02. Revisit 2032.
+
 **Techniques:** causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
 
 **Focus:** detecting when EV smart‑charging begins to materially alter the evening–overnight arbitrage spread
@@ -57,6 +59,8 @@ Demonstrates:
 
 ## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
+**Result:** Rolling mean spreads can deceive. Check early for Null.
+
 **Techniques:** Bayesian modelling, posterior predictive simulation, null‑model construction
 
 **Focus:** Detecting when rolling‑mean “signals” are artefacts rather than genuine effects.
@@ -74,7 +78,6 @@ Demonstrates:
 - diagnosing artefacts in rolling‑window time‑series models
 
 - clear communication of uncertainty and model limitations
-
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
