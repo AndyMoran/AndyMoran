@@ -1,6 +1,6 @@
 # Andy Moran — Quantitative Researcher
 
-My MPlan research at Manchester used Cuba's post-Soviet subsidy collapse as a structural transfer model — specifically modelling how Manchester's food system would respond to a comparable climate-driven shock, and what that implies for UK policy under energy crisis conditions. The research was interesting; the frustration was that its prescriptions couldn't be measured. I couldn't reconcile 'top-down' technocratic theory with ground-level reality. Rather than continue 'hallucinating' policies, I left the field to build things that had to work in the real world.
+My MPlan research at Manchester used Cuba's post-Soviet subsidy collapse— specifically modelling how Manchester's food system would respond to a comparable climate-driven shock, and what that implies for UK policy under energy crisis conditions. The research was interesting; the frustration was that its prescriptions couldn't be measured. I couldn't reconcile 'top-down' technocratic theory with ground-level reality. Rather than continue 'hallucinating' policies, I left the field to build things that had to work in the real world.
 
 But my planning research remains relevant: Cuba is again experiencing severe energy constraints, and the system‑level responses echo the same dynamics I studied years ago. Those patterns appear today in the geopolitical volatility of the Strait of Hormuz, and this reinforced a core truth: uncertainty has a structural pattern that intuition alone cannot capture. Reading Annie Duke’s Thinking in Bets provided the necessary pivot: a move toward the formal probabilistic tools needed to reason honestly about real‑world risk.
 
@@ -33,23 +33,23 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 ## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
-Techniques: Bayesian modelling, posterior predictive simulation, null‑model construction
+**Techniques:** Bayesian modelling, posterior predictive simulation, null‑model construction
 
-Focus: Detecting when rolling‑mean “signals” are artefacts rather than genuine effects.
+**Focus:** Detecting when rolling‑mean “signals” are artefacts rather than genuine effects.
 
-Repo: https://github.com/AndyMoran/xg-spread-model
+**Repo:** https://github.com/AndyMoran/xg-spread-model
 
 This project started as a search for signal and ended as a sober lesson. The result a Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
 
 Demonstrates:
 
-principled null‑model construction
+- principled null‑model construction
 
-posterior predictive simulation for false‑positive detection
+- posterior predictive simulation for false‑positive detection
 
-diagnosing artefacts in rolling‑window time‑series models
+- diagnosing artefacts in rolling‑window time‑series models
 
-clear communication of uncertainty and model limitations
+- clear communication of uncertainty and model limitations
 
 ## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
 
@@ -133,7 +133,9 @@ Demonstrates:
 ## Bellabeat Bayesian Activity Modelling
 
 Techniques: Gamma likelihood, Fourier circadian modelling, hierarchical structure
+
 Focus: Behavioural segmentation & personalised engagement
+
 Repo: https://github.com/AndyMoran/bellabeat_bayesian_analysis
 
 A hierarchical Gamma/Fourier model capturing 24‑hour activity rhythms across Bellabeat personas. Includes model comparison (WAIC/LOO), full diagnostics, and literature integration on circadian modelling. Uses probability‑of‑superiority to compare personas hour‑by‑hour.
