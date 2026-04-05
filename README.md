@@ -31,7 +31,7 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 # Featured Projects
 
-## Ahead of the Curve — Structural Change in GB Diurnal Price Shape
+## Ahead of the Curve — Detecting when EV smart‑charging affects the evening–overnight arbitrage spread
 
 **Techniques:** causal inference, DiD with high‑frequency controls, regime detection, diurnal shape analysis, battery dispatch modelling
 
