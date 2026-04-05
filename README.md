@@ -83,7 +83,9 @@ Demonstrates:
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
 Techniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
+
 Focus: Evaluating VAR’s impact on competitive balance
+
 Repo: https://github.com/AndyMoran/var_home_advantage_bayesian_analysis
 
 A Bayesian investigation into whether VAR changed home advantage. Includes a full convergence section, PPCs, model justification, and a Big Six vs others segmentation. Sensitivity analysis shows that pandemic crowd‑effects, not VAR, explain most of the apparent shift.
