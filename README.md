@@ -29,7 +29,7 @@ I’m building a curated, professional portfolio that reflects both my formal tr
 
 I’m now extending these skills into energy‑sector forecasting, risk modelling, and probabilistic optimisation.
 
-# Featured Projects
+# Energy Projects
 
 ## Ahead of the Curve — Detecting when EV smart‑charging affects the evening–overnight arbitrage spread
 
@@ -78,6 +78,8 @@ Demonstrates:
 - diagnosing artefacts in rolling‑window time‑series models
 
 - clear communication of uncertainty and model limitations
+
+# Machine learning and data science projects
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
