@@ -31,6 +31,30 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 # Energy Projects
 
+## Across the Water — Does the GB day‑ahead market fully price French nuclear unplanned outage announcements?
+
+**Result:** Signal absorbed by IFA2 coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon.
+
+**Techniques:** SCM causal identification, OLS panel regression with HAC standard errors, two-model specification (Model A / Model B), reduced-form IFA flow regression, pre-registered gate structure
+
+**Focus:** testing whether unplanned French nuclear outage announcements produce a residual mispricing in GB day-ahead prices after IFA2 implicit coupling is accounted for
+
+**Repo:** https://github.com/AndyMoran/across-the-water
+
+GB imports electricity from France via IFA and IFA2 (~3 GW combined). When a French reactor trips unexpectedly, French export capacity falls and GB must dispatch more expensive domestic generation. The question is not whether outages affect prices — they do — but whether the market prices the information fast enough that no systematic DA edge remains.
+The identification strategy uses a two-model SCM specification. Model A estimates the total causal effect of unplanned outages on GB DA prices, controlling for TTF gas spot, French temperature deviation, German wind, IFA flows, and season/year fixed effects. Model B adds the French DA clearing price (08:00 UTC) as a control, identifying the residual GB DA mispricing after IFA2 implicit coupling has transmitted the signal.
+Model A passed all three gate conditions (β = £2.94/MWh per GW, p = 0.010, effect > £2/MWh/GW). Model B failed: conditioning on the FR DA clearing price collapses the estimated effect to −£0.41/MWh per GW (p = 0.677). The β drops by £3.35/MWh/GW — 114% of the Model A estimate — leaving a residual indistinguishable from zero. The project stops here by design.
+The null result is precisely diagnosed: IFA2's implicit coupling algorithm uses the FR DA price to jointly optimise cross-border flows. By the time the GB DA auction clears at 11:00, the outage signal has already been fully transmitted via the FR DA clear at 08:00. Large energy desks with IFA2 pricing infrastructure have evidently incorporated this channel. The minimum detectable effect at hourly public data resolution is ~£1.5–2.0/MWh; a residual sub-hourly ID signal cannot be ruled out but requires tick-level data and co-located execution infrastructure to test.
+
+Demonstrates:
+
+- principled null-testing with a pre-registered two-stage gate — precise diagnosis, not just rejection
+- SCM causal identification with explicit confounder structure and two parallel model specifications
+- IFA1/IFA2 structural distinction and reduced-form interconnector flow regression
+- backtest integrity via ENTSO-E fetch timestamp logging (notices sometimes filed retroactively)
+- full public data pipeline across 10 sources — ENTSO-E, Elexon, NESO, RTE, open-meteo, Yahoo Finance
+- pre-written unrun notebooks (03–06) published unmodified to demonstrate pre-registration discipline
+
 ## Ahead of the Curve — Detecting when EV smart‑charging affects the evening–overnight arbitrage spread
 
 **Result:** Signal not detected. Pre-registered hard gate failed at Notebook 02. Revisit 2032.
