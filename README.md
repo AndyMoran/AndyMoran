@@ -42,8 +42,11 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 **Repo:** https://github.com/AndyMoran/across-the-water
 
 GB imports electricity from France via IFA and IFA2 (~3 GW combined). When a French reactor trips unexpectedly, French export capacity falls and GB must dispatch more expensive domestic generation. The question is not whether outages affect prices — they do — but whether the market prices the information fast enough that no systematic DA edge remains.
+
 The identification strategy uses a two-model SCM specification. Model A estimates the total causal effect of unplanned outages on GB DA prices, controlling for TTF gas spot, French temperature deviation, German wind, IFA flows, and season/year fixed effects. Model B adds the French DA clearing price (08:00 UTC) as a control, identifying the residual GB DA mispricing after IFA2 implicit coupling has transmitted the signal.
+
 Model A passed all three gate conditions (β = £2.94/MWh per GW, p = 0.010, effect > £2/MWh/GW). Model B failed: conditioning on the FR DA clearing price collapses the estimated effect to −£0.41/MWh per GW (p = 0.677). The β drops by £3.35/MWh/GW — 114% of the Model A estimate — leaving a residual indistinguishable from zero. The project stops here by design.
+
 The null result is precisely diagnosed: IFA2's implicit coupling algorithm uses the FR DA price to jointly optimise cross-border flows. By the time the GB DA auction clears at 11:00, the outage signal has already been fully transmitted via the FR DA clear at 08:00. Large energy desks with IFA2 pricing infrastructure have evidently incorporated this channel. The minimum detectable effect at hourly public data resolution is ~£1.5–2.0/MWh; a residual sub-hourly ID signal cannot be ruled out but requires tick-level data and co-located execution infrastructure to test.
 
 Demonstrates:
