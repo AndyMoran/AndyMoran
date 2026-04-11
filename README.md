@@ -31,6 +31,24 @@ I’m now extending these skills into energy‑sector forecasting, risk modellin
 
 # Energy Projects
 
+## Grid Causal — Can a GB forced generation outage be detected from 1-second frequency data and does it produce a tradeable intraday price premium?
+
+**Result:** Detection confirmed (7/9 events, p = 0.008, median +£3.44/MWh). Honest P&L negative at −£31.31 on 1 MW. Edge lives in a sub-30-second execution window. 30-minute settlement data cannot measure. Strategy requires real-time BM stream and intraday tick feed to execute.
+
+**Techniques:** CUSUM sequential detection, Savitzky-Golay RoCoF extraction, two-regime causal attribution (Regime_FastShock / Regime_SlowRamp), Wilcoxon signed-rank test, SBP-proxy P&L with explicit execution assumptions
+
+**Focus:** whether the Rate of Change of Frequency in the first 3 seconds after a grid event is sufficient to classify it, detect it within ±5 seconds of onset, and capture the resulting price dislocation with publicly available data
+
+**Repo:** https://github.com/AndyMoran/grid-causal
+
+Demonstrates:
+
+- physics-first calibration
+- honest null result reporting
+- explicit execution gap diagnosis
+- full public data pipeline across NGET, Elexon, and NESO
+
+
 ## Across the Water — Does the GB day‑ahead market fully price French nuclear unplanned outage announcements?
 
 **Result:** Signal absorbed by IFA2 coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon.
