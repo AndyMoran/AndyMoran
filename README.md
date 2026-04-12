@@ -220,16 +220,6 @@ Demonstrates:
 
 - uncertainty‑aware behavioural comparison
 
-# Learning Portfolio (Completed Courses)
-
-**Techniques:** Data cleaning, wrangling, visualisation, structured reporting
-
-**Focus:** Foundations & breadth
-
-**Repo:** https://github.com/AndyMoran/learning-portfolio
-
-A curated collection of projects from the Google Data Analytics and IBM Data Science programmes. Cleaned, organised, and documented to demonstrate foundational analytical skills and clear communication.
-
 # Core Skills
 
 - Bayesian modelling (PyMC, ArviZ)
