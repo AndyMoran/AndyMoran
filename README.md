@@ -246,16 +246,6 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 
 - Clear technical writing and structured reporting
 
-# What I'm Working On
-
-- Expanding into energy‑sector probabilistic modelling
-
-- Strengthening my Bayesian and simulation workflows
-
-- Building messy‑data projects using probabilistic forests and market‑maker models
-
-- Continuing to refine the clarity and structure of my analytical writing
-
 ## Learning & Growth
 
 - Completing Luis Serrano’s Math for Machine Learning to ensure technical depth
