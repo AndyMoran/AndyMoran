@@ -132,7 +132,9 @@ Demonstrates:
 
 - clear communication of uncertainty and model limitations
 
-# Machine learning and data science projects
+# Probalistic Modelling. Transferable methods
+
+The methods below use hierarchical Bayesian inference, simulation-based decision-making, reliability modelling. These are the same tools applied to energy markets and applied on different domains.
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
