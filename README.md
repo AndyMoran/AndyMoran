@@ -37,11 +37,13 @@ andrewgmoran@gmail.com
 
 # Energy Projects
 
+All energy projects are built around a common discipline: pre-register the stopping rule, report the null result, and stop when the data says stop.
+
 | Project | Result | Methods |
 |--------|--------|---------|
 | [Causal Grid Signals](https://github.com/AndyMoran/grid-causal) | Detection confirmed (7/9 events, p = 0.008). Honest P&L negative. | CUSUM, Savitzky–Golay RoCoF, two‑regime attribution, Wilcoxon test |
-| [Across the Water](https://github.com/AndyMoran/across-the-water) | No causal link found between France/GB frequency. | Bayesian structural model, counterfactual simulation, ENTSO‑E data |
-| [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | No predictive edge in day‑ahead imbalance. | Hierarchical Bayesian regression, feature ablation, NESO/Elexon data |
+| [Across the Water](https://github.com/AndyMoran/across-the-water) | Signal absorbed by IFA2 implicit coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon. | Bayesian structural model, counterfactual simulation, ENTSO‑E data |
+| [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | Hierarchical Bayesian regression, feature ablation, NESO/Elexon data |
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) | xG spreads fail to predict match outcomes. | Logistic regression, calibration curves, posterior predictive checks |
 | [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
 | [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
@@ -55,7 +57,7 @@ andrewgmoran@gmail.com
 
 **Techniques:** CUSUM sequential detection, Savitzky-Golay RoCoF extraction, two-regime causal attribution (Regime_FastShock / Regime_SlowRamp), Wilcoxon signed-rank test, SBP-proxy P&L with explicit execution assumptions
 
-**Focus:** whether the Rate of Change of Frequency in the first 3 seconds after a grid event is sufficient to classify it, detect it within ±5 seconds of onset, and capture the resulting price dislocation with publicly available data
+**Focus:** whether the Rate of Change of Frequency in the first seconds after a grid event is sufficient to classify it, detect it within ±5 seconds of onset, and capture the resulting price dislocation with publicly available data 
 
 **Repo:** https://github.com/AndyMoran/grid-causal
 
