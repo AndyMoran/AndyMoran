@@ -12,7 +12,7 @@ I'm now applying Bayesian modelling, regime-switching processes, causal inferenc
 
 # Current Focus
 
-I’m building a curated, professional portfolio in energy‑sector forecasting, risk modelling, and probabilistic optimisation. My work emphasises:
+I’m building a curated, professional portfolio in energy‑sector: forecasting, risk modelling, and probabilistic optimisation. My work emphasises:
 
 - clean, readable analysis
 
