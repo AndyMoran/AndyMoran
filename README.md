@@ -131,6 +131,8 @@ Demonstrates:
 
 The methods below use hierarchical Bayesian inference, simulation-based decision-making, reliability modelling. These are the same tools applied to energy markets and applied on different domains.
 
+| Project | Result | Methods |
+|--------|--------|---------|
 | [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
 | [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
 | [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
