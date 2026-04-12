@@ -28,11 +28,10 @@ I’m building a curated, professional portfolio in energy‑sector: forecasting
 
 # Connect
 
-Building toward energy trading and storage dispatch analytics.
-Available for coffee — particularly interested in talking
+Actively exploring roles in energy trading, storage optimisation, and probabilistic modelling.
+Available for informal coffee and chats. Interested in talking
 to people working on storage optimisation, flexibility markets,
-and DER price impact. Feel free to explore the repositories
-or reach out directly.
+and DER price impact. Please explore the repositories. Brutal adversarial practitioner feedback welcome. Reach out here:
 andrewgmoran@gmail.com
 
 
