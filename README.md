@@ -43,7 +43,7 @@ All energy projects are built around a common discipline: pre-register the stopp
 |--------|--------|---------|
 | [Causal Grid Signals](https://github.com/AndyMoran/grid-causal) | Detection confirmed (7/9 events, p = 0.008). Honest P&L negative. | CUSUM, Savitzky–Golay RoCoF, two‑regime attribution, Wilcoxon test |
 | [Across the Water](https://github.com/AndyMoran/across-the-water) | Signal absorbed by IFA2 implicit coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon. | SCM causal identification, OLS with HAC standard errors, pre-registered two-stage gate. |
-| [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | Hierarchical Bayesian regression, feature ablation, NESO/Elexon data |
+| [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) | xG spreads fail to predict match outcomes. | Logistic regression, calibration curves, posterior predictive checks |
 | [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
 | [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
@@ -124,7 +124,7 @@ Demonstrates:
 
 ## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
-**Result:** Rolling mean spreads can deceive. Check early for Null.
+**Result:** Signal identified as smoothing artefact. Rolling mean spreads fail every out-of-sample test once null distribution is properly specified
 
 **Techniques:** Bayesian modelling, posterior predictive simulation, null‑model construction
 
@@ -235,13 +235,3 @@ Demonstrates:
 - Data cleaning, wrangling, and visualisation
 
 - Clear technical writing and structured reporting
-
-## Learning & Growth
-
-- Completing Luis Serrano’s Math for Machine Learning to ensure technical depth
-  
-- Mathematics for Machine Learning, Imperial
-
-- Expanding into energy‑sector forecasting and risk modelling
-
-
