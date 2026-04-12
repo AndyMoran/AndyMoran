@@ -10,10 +10,9 @@ My project, "Detecting False Signals in Mean-Reversion Models", used Premier Lea
 
 I'm now applying Bayesian modelling, regime-switching processes, causal inference, and structured null testing to GB electricity markets. The specific question: has the evening demand ramp already begun to change shape as EV adoption grows, and what is that structural shift worth to a storage asset before the forward curve prices it in?
 
-
 # Current Focus
 
-I’m building a curated, professional portfolio that reflects both my formal training and my independent analytical interests. My work emphasises:
+I’m building a curated, professional portfolio in energy‑sector forecasting, risk modelling, and probabilistic optimisation. My work emphasises:
 
 - clean, readable analysis
 
@@ -27,7 +26,15 @@ I’m building a curated, professional portfolio that reflects both my formal tr
 
 - decision‑ready insights
 
-I’m now extending these skills into energy‑sector forecasting, risk modelling, and probabilistic optimisation.
+# Connect
+
+Building toward energy trading and storage dispatch analytics.
+Available for coffee — particularly interested in talking
+to people working on storage optimisation, flexibility markets,
+and DER price impact. Feel free to explore the repositories
+or reach out directly.
+andrewgmoran@gmail.com
+
 
 # Energy Projects
 
@@ -244,11 +251,4 @@ A curated collection of projects from the Google Data Analytics and IBM Data Sci
 
 - Expanding into energy‑sector forecasting and risk modelling
 
-# Connect
 
-Building toward energy trading and storage dispatch analytics.
-Available for coffee — particularly interested in talking
-to people working on storage optimisation, flexibility markets,
-and DER price impact. Feel free to explore the repositories
-or reach out directly.
-andrewgmoran@gmail.com
