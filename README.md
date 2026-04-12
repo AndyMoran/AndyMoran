@@ -1,5 +1,9 @@
 # Andy Moran — Quantitative Researcher
 
+Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets. Three energy projects completed. All null results reported.
+
+Background: MPlan Manchester → probabilistic reasoning → energy market research.
+
 My MPlan research at Manchester used Cuba's post-Soviet subsidy collapse, specifically modelling how Manchester's food system would respond to a comparable climate-driven shock, and what that implies for UK policy under energy crisis conditions. The research was interesting; the frustration was that its prescriptions couldn't be measured. I couldn't reconcile 'top-down' technocratic theory with ground-level reality. Rather than continue 'hallucinating' policies, I left the field to build things that had to work in the real world.
 
 But my planning research remains relevant: Cuba is again experiencing severe energy constraints, and the system‑level responses echo the same dynamics I studied years ago. Those patterns appear today in the geopolitical volatility of the Strait of Hormuz, and this reinforced a core truth: uncertainty has a structural pattern that intuition alone cannot capture. Reading Annie Duke’s Thinking in Bets provided the necessary pivot: a move toward the formal probabilistic tools needed to reason honestly about real‑world risk.
@@ -9,22 +13,6 @@ I've now worked through the frequentist foundations and moved into Bayesian mode
 My project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn't prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. I abandoned the signal because I care about ground truth, quick empirical feedback, and models that survive contact with data, not just persuade in slide decks. If the data disagrees with the model, the data wins. I’m interested in predictive power, not models that protect an expert’s reputation.
 
 I'm now applying Bayesian modelling, regime-switching processes, causal inference, and structured null testing to GB electricity markets. The specific question: has the evening demand ramp already begun to change shape as EV adoption grows, and what is that structural shift worth to a storage asset before the forward curve prices it in?
-
-# Current Focus
-
-I’m building a curated, professional portfolio in energy‑sector: forecasting, risk modelling, and probabilistic optimisation. My work emphasises:
-
-- clean, readable analysis
-
-- principled statistical reasoning
-
-- reproducible workflows
-
-- uncertainty‑aware modelling
-
-- clear narrative structure
-
-- decision‑ready insights
 
 # Connect
 
