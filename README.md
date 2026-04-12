@@ -2,7 +2,7 @@
 
 **Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets. Three energy projects completed. All null results reported.**
 
-*Background: MPlan Manchester → probabilistic reasoning → energy market research.
+*Background: MPlan Manchester → probabilistic reasoning → energy market research.*
 
 My MPlan research at Manchester used Cuba's post-Soviet subsidy collapse, specifically modelling how Manchester's food system would respond to a comparable climate-driven shock, and what that implies for UK policy under energy crisis conditions. The research was interesting; the frustration was that its prescriptions couldn't be measured. I couldn't reconcile 'top-down' technocratic theory with ground-level reality. Rather than continue 'hallucinating' policies, I left the field to build things that had to work in the real world.
 
