@@ -37,6 +37,18 @@ andrewgmoran@gmail.com
 
 # Energy Projects
 
+| Project | Result | Methods |
+|--------|--------|---------|
+| [Causal Grid Signals](https://github.com/AndyMoran/grid-causal) | Detection confirmed (7/9 events, p = 0.008). Honest P&L negative. | CUSUM, Savitzky–Golay RoCoF, two‑regime attribution, Wilcoxon test |
+| [Across the Water](https://github.com/AndyMoran/across-the-water) | No causal link found between Irish/GB frequency. | Bayesian structural model, counterfactual simulation, ENTSO‑E data |
+| [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | No predictive edge in day‑ahead imbalance. | Hierarchical Bayesian regression, feature ablation, NESO/Elexon data |
+| [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) | xG spreads fail to predict match outcomes. | Logistic regression, calibration curves, posterior predictive checks |
+| [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
+| [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
+| [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
+| [Bellabeat Activity Modelling](https://github.com/AndyMoran/bellabeat) | Weak predictive signal; null result. | Random forest, feature engineering, cross‑validation |
+
+
 ## Causal Grid Signals — Can a GB forced generation outage be detected from 1-second frequency data and does it produce a tradeable intraday price premium?
 
 **Result:** Detection confirmed (7/9 events, p = 0.008, median +£3.44/MWh). Honest P&L negative at −£31.31 on 1 MW. Edge lives in a sub-30-second execution window. 30-minute settlement data cannot measure. Strategy requires real-time BM stream and intraday tick feed to execute.
