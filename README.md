@@ -29,10 +29,37 @@ All energy projects are built around a common discipline: pre-register the stopp
 
 | Project | Result | Methods |
 |--------|--------|---------|
+| [Overnight Recharge](https://github.com/AndyMoran/project-f-overnight-recharge) | Economic null. Causal design fails (HS-3). Controlled effect (−£4.7/MWh, p≈0.05) is statistically fragile and non-monetisable. | Pre-registration, matched-pairs, HS gates, regression, OVB (sign reversal), execution-aware P&L |
 | [Causal Grid Signals](https://github.com/AndyMoran/grid-causal) | Detection confirmed (7/9 events, p = 0.008). Honest P&L negative. | CUSUM, Savitzky–Golay RoCoF, two‑regime attribution, Wilcoxon test |
 | [Across the Water](https://github.com/AndyMoran/across-the-water) | Signal absorbed by IFA2 implicit coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon. | SCM causal identification, OLS with HAC standard errors, pre-registered two-stage gate. |
 | [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Do expected Goals (xG) in Premier League football behave like a mean‑reverting financial spread, similar to a spark spread in energy markets? xG spreads fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
+
+**Overnight Recharge — Does BESS depletion suppress GB overnight prices?**
+
+**Result:**
+The pre-registered matched-pairs design failed a hard-stop validity check (HS-3: insufficient overlap), preventing causal inference.
+Post-lock regression and trading analysis find a weak negative relationship between depletion and overnight prices (~−£4.7/MWh per 10pp), but the estimate is statistically fragile (p ≈ 0.05), unstable across specifications, and not economically viable after realistic trading frictions.
+**Conclusion:** economic null.
+
+**Techniques:**
+Matched-pairs design · HS-series validity gates · regression with controls · omitted variable bias identification (sign reversal) · signal construction · execution-aware P&L attribution
+
+**Focus:**
+Whether large-scale evening discharge of short-duration (≤2h) GB battery storage creates a measurable and monetisable “recharging footprint” in overnight imbalance prices, and whether this effect survives causal identification and realistic trading constraints.
+
+**Repo:**
+https://github.com/AndyMoran/project-f-overnight-recharge
+
+**Demonstrates:**
+
+* strict pre-registration discipline (v3.2 locked before data access)
+* correct invalidation of a failed causal design (HS-3)
+* clear separation of pre-registered vs post-lock analysis
+* identification of omitted variable bias via sign reversal
+* translation of statistical results into realistic trading P&L
+* end-to-end construction of a usable dataset from complex Elexon / NESO sources
+* honest reporting of a non-tradable result
 
 ## Causal Grid Signals — Can a GB forced generation outage be detected from 1-second frequency data and does it produce a tradeable intraday price premium?
 
