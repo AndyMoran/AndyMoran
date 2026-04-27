@@ -35,7 +35,7 @@ All energy projects are built around a common discipline: pre-register the stopp
 | [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Do expected Goals (xG) in Premier League football behave like a mean‑reverting financial spread, similar to a spark spread in energy markets? xG spreads fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
 
-**Overnight Recharge — Does BESS depletion suppress GB overnight prices?**
+## Overnight Recharge — Does BESS depletion suppress GB overnight prices?
 
 **Result:**
 The pre-registered matched-pairs design failed a hard-stop validity check (HS-3: insufficient overlap), preventing causal inference.
