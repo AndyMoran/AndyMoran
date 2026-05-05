@@ -165,7 +165,7 @@ Demonstrates:
 - sunset‑adjusted diurnal window construction
 - minimum detectable effect estimation and revisit threshold quantification
 
-# Probalistic Modelling. Transferable methods
+# Probalistic Modelling. Transferable Methods
 
 The methods below use hierarchical Bayesian inference, simulation-based decision-making, reliability modelling. These are the same tools applied to energy markets and applied on different domains.
 
