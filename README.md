@@ -36,6 +36,36 @@ All energy projects are built around a common discipline: pre-register the stopp
 | [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Do expected Goals (xG) in Premier League football behave like a mean‑reverting financial spread, similar to a spark spread in energy markets? xG spreads fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
 
+## South West Constraint Modelling — Do system‑level wind–constraint relationships hold regionally?
+
+**Result:**
+System‑level analysis shows a strong positive relationship between wind generation and constraint probability (rising from ~3% to ~11%, a ~3× increase). However, this relationship does not generalise to the South West. Regional constraint events remain rare (~3%), show a weak or slightly negative relationship with wind, and exhibit only modest non‑linear structure. Random Forest models detect interaction effects between wind and demand, but empirical validation shows these effects are small and do not materially elevate risk.
+Conclusion: regional constraint behaviour diverges from system‑level patterns; effect sizes are low.
+
+**Techniques:**  
+Settlement‑period alignment · BM volume construction · percentile‑based event definition · logistic regression · interaction modelling · Random Forest (non‑linear structure) · partial dependence analysis · empirical validation
+
+**Focus:**  
+Whether the system‑level relationship between wind generation and constraint risk — a clear, monotonic increase — also appears in the South West region. The project tests whether regional constraint events can be explained by wind, demand, or their interaction, and whether non‑linear structure meaningfully elevates risk across operating conditions.
+
+**Repo:**  
+https://github.com/AndyMoran/sw-restraint-modelling
+
+**Demonstrates:**
+- clean construction of a complete settlement‑period dataset (17,520 SPs)
+
+- correct use of percentile‑based thresholds for regional BM activity
+
+- disciplined comparison of system‑level vs regional behaviour
+
+- identification of non‑linear structure without over‑interpreting weak signals
+
+- empirical validation via binned heatmaps to avoid model hallucination
+
+- honest reporting of low‑magnitude effects and region‑specific dynamics
+
+- clear articulation of when system‑level intuition fails at regional scal
+
 ## Overnight Recharge — Does BESS depletion suppress GB overnight prices?
 
 **Result:**
@@ -53,14 +83,13 @@ Whether large-scale evening discharge of short-duration (≤2h) GB battery stora
 https://github.com/AndyMoran/project-f-overnight-recharge
 
 **Demonstrates:**
-
-* strict pre-registration discipline (v3.2 locked before data access)
-* correct invalidation of a failed causal design (HS-3)
-* clear separation of pre-registered vs post-lock analysis
-* identification of omitted variable bias via sign reversal
-* translation of statistical results into realistic trading P&L
-* end-to-end construction of a usable dataset from complex Elexon / NESO sources
-* honest reporting of a non-tradable result
+- strict pre-registration discipline (v3.2 locked before data access)
+- correct invalidation of a failed causal design (HS-3)
+- clear separation of pre-registered vs post-lock analysis
+- identification of omitted variable bias via sign reversal
+- translation of statistical results into realistic trading P&L
+- end-to-end construction of a usable dataset from complex Elexon / NESO sources
+- honest reporting of a non-tradable result
 
 ## Causal Grid Signals — Can a GB forced generation outage be detected from 1-second frequency data and does it produce a tradeable intraday price premium?
 
