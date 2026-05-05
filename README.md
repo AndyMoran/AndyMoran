@@ -35,7 +35,7 @@ All energy projects are built around a common discipline: pre-register the stopp
 | [Across the Water](https://github.com/AndyMoran/across-the-water) | Signal absorbed by IFA2 implicit coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon. | SCM causal identification, OLS with HAC standard errors, pre-registered two-stage gate. |
 | [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
 
-## South West Constraint Modelling — Do system‑level wind–constraint relationships hold regionally?
+### South West Constraint Modelling — Do system‑level wind–constraint relationships hold regionally?
 
 **Result:**
 System‑level analysis shows a strong positive relationship between wind generation and constraint probability (rising from ~3% to ~11%, a ~3× increase). However, this relationship does not generalise to the South West. Regional constraint events remain rare (~3%), show a weak or slightly negative relationship with wind, and exhibit only modest non‑linear structure. Random Forest models detect interaction effects between wind and demand, but empirical validation shows these effects are small and do not materially elevate risk.
@@ -68,7 +68,7 @@ https://github.com/AndyMoran/sw-restraint-modelling
 
 - extraction of a simple three‑regime “rule of thumb”: a 26% no‑risk zone (low wind, low demand), an 8% elevated‑risk zone (high wind, high demand, ~ 4.8% event rate), and a neutral baseline (~ 3.1% event rate) — showing that constraint risk is fundamentally state‑dependent rather than monotonic in wind alone
 
-## Overnight Recharge — Does BESS depletion suppress GB overnight prices?
+### Overnight Recharge — Does BESS depletion suppress GB overnight prices?
 
 **Result:**
 The pre-registered matched-pairs design failed a hard-stop validity check (HS-3: insufficient overlap), preventing causal inference.
@@ -94,7 +94,7 @@ https://github.com/AndyMoran/project-f-overnight-recharge
 - end-to-end construction of a usable dataset from complex Elexon / NESO sources
 - honest reporting of a non-tradable result
 
-## Causal Grid Signals — Can a GB forced generation outage be detected from 1-second frequency data and does it produce a tradeable intraday price premium?
+### Causal Grid Signals — Can a GB forced generation outage be detected from 1-second frequency data and does it produce a tradeable intraday price premium?
 
 **Result:** Detection confirmed (7/9 events, p = 0.008, median +£3.44/MWh). Honest P&L negative at −£31.31 on 1 MW. Edge lives in a sub-30-second execution window. 30-minute settlement data cannot detect measure. Strategy requires real-time BM stream and intraday tick feed to execute.
 
@@ -112,7 +112,7 @@ Demonstrates:
 - full public data pipeline across NGET, Elexon, and NESO
 
 
-## Across the Water — Does the GB day‑ahead market fully price French nuclear unplanned outage announcements?
+### Across the Water — Does the GB day‑ahead market fully price French nuclear unplanned outage announcements?
 
 **Result:** Signal absorbed by IFA2 coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon.
 
@@ -139,7 +139,7 @@ Demonstrates:
 - full public data pipeline across 10 sources — ENTSO-E, Elexon, NESO, RTE, open-meteo, Yahoo Finance
 - pre-written unrun notebooks (03–06) published unmodified to demonstrate pre-registration discipline
 
-## Ahead of the Curve — Detecting when EV smart‑charging affects the evening–overnight arbitrage spread
+### Ahead of the Curve — Detecting when EV smart‑charging affects the evening–overnight arbitrage spread
 
 **Result:** Signal not detected. Pre-registered hard gate failed at Notebook 02. Revisit 2032.
 
@@ -177,7 +177,7 @@ The methods below use hierarchical Bayesian inference, simulation-based decision
 | [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
 | [Bellabeat Activity Modelling](https://github.com/AndyMoran/bellabeat) | Weak predictive signal; null result. | Random forest, feature engineering, cross‑validation |
 
-## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
+### xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
 **Result:** Signal identified as smoothing artefact. Rolling mean spreads fail every out-of-sample test once null distribution is properly specified
 
@@ -199,7 +199,7 @@ Demonstrates:
 
 - clear communication of uncertainty and model limitations
 
-## VAR and Premier League Home Advantage: A Bayesian Analysis
+### VAR and Premier League Home Advantage: A Bayesian Analysis
 
 Techniques: Bayesian modelling, sensitivity analysis, segmentation, causal reasoning
 
@@ -219,7 +219,7 @@ Demonstrates:
 
 - translating statistical findings into business‑ready insights
 
-## Cyclistic Bayesian Pricing & Behaviour Simulation
+### Cyclistic Bayesian Pricing & Behaviour Simulation
 
 **Techniques:** Monte Carlo simulation, Bayesian decision‑making, scenario analysis
 
@@ -237,7 +237,7 @@ Demonstrates:
 
 - evaluating pricing trade‑offs probabilistically
 
-## Falcon 9 Bayesian Reliability Analysis
+### Falcon 9 Bayesian Reliability Analysis
 
 Techniques: Bayesian logistic regression, calibration, validation
 
@@ -255,7 +255,7 @@ Demonstrates:
 
 - combining inference with economic reasoning
 
-## Bellabeat Bayesian Activity Modelling
+### Bellabeat Bayesian Activity Modelling
 
 **Techniques:** Gamma likelihood, Fourier circadian modelling, hierarchical structure
 
