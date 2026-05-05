@@ -66,7 +66,7 @@ https://github.com/AndyMoran/sw-restraint-modelling
 
 - clear articulation of when system‑level intuition fails at regional scale
 
-- extraction of a simple three‑regime “rule of thumb”: a 26% no‑risk zone (low wind, low demand), an 8% elevated‑risk zone (high wind, high demand, ~ 4.8% event rate), and a neutral baseline (~ 3.1% event rate) — showing that constraint risk is fundamentally state‑dependent rather than monotonic in wind alone
+- extraction of a simple three‑regime “rule of thumb”: a 26% no‑risk zone (low wind, low demand), an 8% elevated‑risk zone (high wind, high demand, ~ 4.8% event rate), and a neutral baseline (~ 3.1% event rate) showing that constraint risk is fundamentally state‑dependent rather than monotonic in wind alone
 
 ### Overnight Recharge — Does BESS depletion suppress GB overnight prices?
 
