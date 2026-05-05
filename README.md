@@ -40,7 +40,8 @@ All energy projects are built around a common discipline: pre-register the stopp
 
 **Result:**
 System‑level analysis shows a strong positive relationship between wind generation and constraint probability (rising from ~3% to ~11%, a ~3× increase). However, this relationship does not generalise to the South West. Regional constraint events remain rare (~3%), show a weak or slightly negative relationship with wind, and exhibit only modest non‑linear structure. Random Forest models detect interaction effects between wind and demand, but empirical validation shows these effects are small and do not materially elevate risk.
-Conclusion: regional constraint behaviour diverges from system‑level patterns; effect sizes are low.
+
+**Conclusion:** regional constraint behaviour diverges from system‑level patterns; effect sizes are low.
 
 **Techniques:**  
 Settlement‑period alignment · BM volume construction · percentile‑based event definition · logistic regression · interaction modelling · Random Forest (non‑linear structure) · partial dependence analysis · empirical validation
@@ -71,6 +72,7 @@ https://github.com/AndyMoran/sw-restraint-modelling
 **Result:**
 The pre-registered matched-pairs design failed a hard-stop validity check (HS-3: insufficient overlap), preventing causal inference.
 Post-lock regression and trading analysis find a weak negative relationship between depletion and overnight prices (~−£4.7/MWh per 10pp), but the estimate is statistically fragile (p ≈ 0.05), unstable across specifications, and not economically viable after realistic trading frictions.
+
 **Conclusion:** economic null.
 
 **Techniques:**
