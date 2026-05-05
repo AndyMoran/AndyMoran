@@ -34,7 +34,6 @@ All energy projects are built around a common discipline: pre-register the stopp
 | [Causal Grid Signals](https://github.com/AndyMoran/grid-causal) | Detection confirmed (7/9 events, p = 0.008). Honest P&L negative. | CUSUM, Savitzky–Golay RoCoF, two‑regime attribution, Wilcoxon test |
 | [Across the Water](https://github.com/AndyMoran/across-the-water) | Signal absorbed by IFA2 implicit coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon. | SCM causal identification, OLS with HAC standard errors, pre-registered two-stage gate. |
 | [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
-| [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Do expected Goals (xG) in Premier League football behave like a mean‑reverting financial spread, similar to a spark spread in energy markets? xG spreads fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
 
 ## South West Constraint Modelling — Do system‑level wind–constraint relationships hold regionally?
 
@@ -166,6 +165,18 @@ Demonstrates:
 - sunset‑adjusted diurnal window construction
 - minimum detectable effect estimation and revisit threshold quantification
 
+# Probalistic Modelling. Transferable methods
+
+The methods below use hierarchical Bayesian inference, simulation-based decision-making, reliability modelling. These are the same tools applied to energy markets and applied on different domains.
+
+| Project | Result | Methods |
+|--------|--------|---------|
+| [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Do expected Goals (xG) in Premier League football behave like a mean‑reverting financial spread, similar to a spark spread in energy markets? xG spreads fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
+| [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
+| [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
+| [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
+| [Bellabeat Activity Modelling](https://github.com/AndyMoran/bellabeat) | Weak predictive signal; null result. | Random forest, feature engineering, cross‑validation |
+
 ## xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
 **Result:** Signal identified as smoothing artefact. Rolling mean spreads fail every out-of-sample test once null distribution is properly specified
@@ -187,17 +198,6 @@ Demonstrates:
 - diagnosing artefacts in rolling‑window time‑series models
 
 - clear communication of uncertainty and model limitations
-
-# Probalistic Modelling. Transferable methods
-
-The methods below use hierarchical Bayesian inference, simulation-based decision-making, reliability modelling. These are the same tools applied to energy markets and applied on different domains.
-
-| Project | Result | Methods |
-|--------|--------|---------|
-| [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
-| [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
-| [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
-| [Bellabeat Activity Modelling](https://github.com/AndyMoran/bellabeat) | Weak predictive signal; null result. | Random forest, feature engineering, cross‑validation |
 
 ## VAR and Premier League Home Advantage: A Bayesian Analysis
 
