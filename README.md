@@ -1,6 +1,6 @@
 # Andy Moran — Quantitative Researcher
 
-**Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets. Three energy projects completed. All null results reported.**
+**Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets. Five energy projects completed. All null results reported.**
 
 *Background: MPlan Manchester → probabilistic reasoning → energy market research.*
 
