@@ -165,24 +165,14 @@ Demonstrates:
 - sunset‑adjusted diurnal window construction
 - minimum detectable effect estimation and revisit threshold quantification
 
-### Premier League Football Data Analytics
+### Premier League Data Analytics
 
-Data and machine learning investigations, with answers, into Premier League football outcomes. Do expected goals predict matches? Did VAR change the league?
+Evidence‑driven investigations into how the Premier League actually works. Do expected goals predict match outcomes? Did VAR reshape home advantage? Each project answers a specific football question with data, modelling, and clear results.
 
 | Project | Result | Methods |
 |--------|--------|---------|
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Expected Goals (xG) spreads do **not** behave like a mean‑reverting financial spread and fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
 | [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
-
-## Probabilistic Modelling
-
-The methods below use hierarchical Bayesian inference, simulation-based decision-making, and reliability modelling.
-
-| Project | Result | Methods |
-|--------|--------|---------|
-| [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
-| [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
-| [Bellabeat Activity Modelling](https://github.com/AndyMoran/bellabeat) | Weak predictive signal; null result. | Random forest, feature engineering, cross‑validation |
 
 ### xG Spread Failure Model — Null‑Model Calibration & False‑Signal Detection
 
@@ -225,6 +215,17 @@ Demonstrates:
 - segmentation for competitive‑balance evaluation
 
 - translating statistical findings into business‑ready insights
+
+
+## Probabilistic Modelling
+
+The methods below use hierarchical Bayesian inference, simulation-based decision-making, and reliability modelling.
+
+| Project | Result | Methods |
+|--------|--------|---------|
+| [Cyclistic Bayesian Pricing](https://github.com/AndyMoran/cyclistic-bayesian-pricing) | Identified price‑sensitive segments. | Hierarchical Bayesian model, posterior clustering |
+| [Falcon 9 Reliability](https://github.com/AndyMoran/falcon9) | Reliability >98% with narrowing uncertainty. | Bayesian survival analysis, hazard modelling |
+| [Bellabeat Activity Modelling](https://github.com/AndyMoran/bellabeat) | Weak predictive signal; null result. | Random forest, feature engineering, cross‑validation |
 
 ### Cyclistic Bayesian Pricing & Behaviour Simulation
 
