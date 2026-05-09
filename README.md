@@ -167,7 +167,7 @@ The null result is commercially useful: the smart charging effect is not yet pri
 
 # Premier League Data Analytics
 
-Evidence‑driven investigations into how the Premier League actually works. Do expected goals predict match outcomes? Did VAR reshape home advantage? Each project answers a specific football question with data, modelling, and clear results.
+Evidence‑driven investigations into how the Premier League works. Do expected goals predict match outcomes? Did VAR reshape home advantage? Each project answers a specific football question with data, modelling, and clear results.
 
 | Project | Result | Methods |
 |--------|--------|---------|
