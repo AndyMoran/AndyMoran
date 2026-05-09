@@ -165,9 +165,18 @@ Demonstrates:
 - sunset‑adjusted diurnal window construction
 - minimum detectable effect estimation and revisit threshold quantification
 
+### Premier League Football Data Analytics
+
+Data and machine learning investigations, with answers, into Premier League football outcomes. Do expected goals predict matches? Did VAR change the league?
+
+| Project | Result | Methods |
+|--------|--------|---------|
+| [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Expected Goals (xG) spreads do **not** behave like a mean‑reverting financial spread and fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
+| [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
+
 ## Probabilistic Modelling · Transferable Methods
 
-The methods below use hierarchical Bayesian inference, simulation-based decision-making, reliability modelling. These are the same tools applied to energy markets and applied on different domains.
+The methods below use hierarchical Bayesian inference, simulation-based decision-making, and reliability modelling.
 
 | Project | Result | Methods |
 |--------|--------|---------|
