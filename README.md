@@ -104,7 +104,7 @@ https://github.com/AndyMoran/project-f-overnight-recharge
 
 **Repo:** https://github.com/AndyMoran/grid-causal
 
-Demonstrates:
+**Demonstrates:**
 
 - physics-first calibration
 - honest null result reporting
@@ -130,7 +130,7 @@ Model A passed all three gate conditions (β = £2.94/MWh per GW, p = 0.010, eff
 
 The null result is precisely diagnosed: IFA2's implicit coupling algorithm uses the FR DA price to jointly optimise cross-border flows. By the time the GB DA auction clears at 11:00, the outage signal has already been fully transmitted via the FR DA clear at 08:00. Large energy desks with IFA2 pricing infrastructure have evidently incorporated this channel. The minimum detectable effect at hourly public data resolution is ~£1.5–2.0/MWh; a residual sub-hourly ID signal cannot be ruled out but requires tick-level data and co-located execution infrastructure to test.
 
-Demonstrates:
+**Demonstrates:**
 
 - principled null-testing with a pre-registered two-stage gate — precise diagnosis, not just rejection
 - SCM causal identification with explicit confounder structure and two parallel model specifications
@@ -157,7 +157,7 @@ The pre-registered hard gate failed at Notebook 02. After controlling for wind f
 
 The null result is commercially useful: the smart charging effect is not yet priced into the spread distribution, and dispatch models require no adjustment today. The minimum detectable stock estimate (~12M compliant chargepoints, ~25 GW shiftable load) implies the signal will not be detectable until GB BEV stock approaches 8 million vehicles — projected around 2032–2035 on central adoption forecasts. The framework is ready to rerun at that point.
 
-Demonstrates:
+**Demonstrates:**
 
 - principled null‑testing with a pre-registered hard gate — fail fast, move on
 - structural‑change detection in noisy, confounded markets
@@ -186,7 +186,7 @@ Evidence‑driven investigations into how the Premier League actually works. Do 
 
 This project started as a search for signal and ended as a sober lesson. The result a Bayesian failure‑mode analysis showing how rolling‑mean spreads in football xG data can produce convincing‑looking patterns even when no real effect exists. The model builds a principled null distribution, simulates thousands of fake seasons, and compares the observed statistic against that null to quantify whether the pattern is real or an artefact of autocorrelation and variance instability.
 
-Demonstrates:
+**Demonstrates:**
 
 - principled null‑model construction
 
@@ -237,7 +237,7 @@ The methods below use hierarchical Bayesian inference, simulation-based decision
 
 A simulation‑based pricing model exploring how fare changes affect rider behaviour and revenue. Includes full convergence diagnostics, PPCs, and a clear justification for the modelling structure. Quantifies risk, identifies robust strategies, and supports policy decisions.
 
-Demonstrates:
+**Demonstrates:**
 
 - simulation‑based decision‑making
 
@@ -273,7 +273,7 @@ Demonstrates:
 
 A hierarchical Gamma/Fourier model capturing 24‑hour activity rhythms across Bellabeat personas. Includes model comparison (WAIC/LOO), full diagnostics, and literature integration on circadian modelling. Uses probability‑of‑superiority to compare personas hour‑by‑hour.
 
-Demonstrates:
+**Demonstrates:**
 
 - modelling cyclic behaviour with Fourier series
 
