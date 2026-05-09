@@ -165,7 +165,7 @@ The null result is commercially useful: the smart charging effect is not yet pri
 - sunset‑adjusted diurnal window construction
 - minimum detectable effect estimation and revisit threshold quantification
 
-### Premier League Data Analytics
+# Premier League Data Analytics
 
 Evidence‑driven investigations into how the Premier League actually works. Do expected goals predict match outcomes? Did VAR reshape home advantage? Each project answers a specific football question with data, modelling, and clear results.
 
@@ -217,7 +217,7 @@ A Bayesian investigation into whether VAR changed home advantage. Includes a ful
 - translating statistical findings into business‑ready insights
 
 
-## Probabilistic Modelling
+# Probabilistic Modelling
 
 The methods below use hierarchical Bayesian inference, simulation-based decision-making, and reliability modelling.
 
