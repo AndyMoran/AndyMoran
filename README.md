@@ -174,7 +174,7 @@ Data and machine learning investigations, with answers, into Premier League foot
 | [xG Spread Failure Model](https://github.com/AndyMoran/xg-spread-model) |  Expected Goals (xG) spreads do **not** behave like a mean‑reverting financial spread and fail to predict match outcomes.| Logistic regression, calibration curves, posterior predictive checks. |
 | [VAR & Home Advantage](https://github.com/AndyMoran/var-home-advantage) | VAR reduces home advantage by ~20%. | Bayesian time‑varying model, causal attribution |
 
-## Probabilistic Modelling · Transferable Methods
+## Probabilistic Modelling
 
 The methods below use hierarchical Bayesian inference, simulation-based decision-making, and reliability modelling.
 
