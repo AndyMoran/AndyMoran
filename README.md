@@ -1,17 +1,17 @@
 # Andy Moran — Quantitative Researcher
 Physics‑first signal detection for GB electricity markets. Transparent reporting, nulls included.
 
-Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results, including nulls, are reported transparently.
+Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results — including nulls — are reported transparently.
 
 My background spans urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on problems where intuition fails, uncertainty compounds, and only disciplined modelling gains traction.
 
-I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project is built with the same discipline: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly — including nulls. I pre‑registered one project to demonstrate the workflow; the priority is methodological clarity, not ceremony. This includes work on constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
+I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same principle: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly. I pre‑registered one project to demonstrate the workflow, but I prioritise methodological clarity over ceremony. My work spans constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
 
 My current work focuses on North‑West transmission constraints, infrastructure persistence, and battery‑duration suitability. The project examines whether long‑standing congestion around B7a, Penwortham, Carrington, and Greater Manchester is creating a structural mismatch between today’s short‑duration BESS deployments and the longer‑duration flexibility required by a renewable‑heavy, transmission‑constrained grid. The emphasis is shifting from short‑lived statistical inefficiencies to slow‑moving physical bottlenecks — reinforcement delays, planning friction, and queue congestion — and how these shape the real operational value of storage assets.
 
 # Connect
 
-I’m actively exploring roles in energy trading, storage optimisation, and probabilistic modelling. Open to informal coffee chats—especially with people working on:
+I’m exploring roles in energy trading, storage optimisation, and probabilistic modelling. Open to informal coffee chats—especially with people working on:
 - Storage optimisation & flexibility markets
 - DER price impact
 - Grid‑scale battery dispatch & constraint modelling
