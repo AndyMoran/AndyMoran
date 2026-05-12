@@ -1,14 +1,12 @@
 # Andy Moran — Quantitative Researcher
 
-**Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets.**
+**Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets.** 
 
-*Background: MSc, MPlan Manchester → probabilistic reasoning → energy market research.*
-
-I build physics‑first signal detection pipelines, walk‑forward models, and structured null tests that survive contact with real‑world data. All results — including nulls — are reported transparently.
+All results — including nulls — are reported transparently.
 
 My background spans urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on problems where intuition fails, uncertainty compounds, and only disciplined modelling provides traction.
 
-I’ve now completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same approach: pre‑register the stopping rule, run the model honestly, report the null result, and stop when the data says stop. This has included work on constraint behaviour, outage detection, implicit coupling, smart‑charging signals, and adaptive fair‑value modelling. I have also built walk‑forward equilibrium estimation, residual stress diagnostics, and regime‑dependent behaviour in GB balancing spreads — specifically, how equilibrium drifts under non‑stationarity and what that implies for storage assets before the forward curve prices it in.
+I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project is built with the same discipline: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly — including nulls. I pre‑registered one project to demonstrate the workflow, but I don’t treat pre‑registration as a ritual; the priority is methodological clarity, not ceremony. This includes work on constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
 
 My current work focuses on North‑West transmission constraints, infrastructure persistence, and battery‑duration suitability. The project examines whether long‑standing congestion around B7a, Penwortham, Carrington, and Greater Manchester is creating a structural mismatch between today’s short‑duration BESS deployments and the longer‑duration flexibility required by a renewable‑heavy, transmission‑constrained grid. The emphasis is shifting from short‑lived statistical inefficiencies to slow‑moving physical bottlenecks — reinforcement delays, planning friction, and queue congestion — and how these shape the real operational value of storage assets.
 
