@@ -29,6 +29,7 @@ All energy projects are built around a common discipline: pre-register the stopp
 
 | Project | Result | Methods |
 |--------|--------|---------|
+| [Walk‑Forward Adaptive Fair‑Value Modelling](https://github.com/AndyMoran/bm-adaptive-fair-value) | Walk‑forward equilibrium model tracks non‑stationary BM spreads. Static models overstate residual stress; adaptive retraining reduces false dislocations and stabilises fair‑value estimates. | Walk‑forward retraining, residual stress diagnostics, equilibrium drift estimation, XGBoost, rolling feature engineering, timestamp‑aligned BM spread construction |
 | [South West Constraint Modelling](https://github.com/AndyMoran/sw-restraint-modelling) | Region-specific constraint behaviour diverges from system-level patterns. Wind shows weak or negative relationship with constraints; risk is structurally non-linear but low in magnitude (~3%). | Settlement-period alignment, BM volume construction, percentile-based event definition, logistic regression, random forest (non-linear structure), empirical validation |
 | [Overnight Recharge](https://github.com/AndyMoran/project-f-overnight-recharge) | Economic null. Causal design fails (HS-3). Controlled effect (−£4.7/MWh, p≈0.05) is statistically fragile and non-monetisable. | Pre-registration, matched-pairs, HS gates, regression, OVB (sign reversal), execution-aware P&L |
 | [Causal Grid Signals](https://github.com/AndyMoran/grid-causal) | Detection confirmed (7/9 events, p = 0.008). Honest P&L negative. | CUSUM, Savitzky–Golay RoCoF, two‑regime attribution, Wilcoxon test |
