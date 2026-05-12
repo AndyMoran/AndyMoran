@@ -17,7 +17,9 @@ I’m actively exploring roles in energy trading, storage optimisation, and prob
 - Grid‑scale battery dispatch & constraint modelling
 
 Brutal adversarial practitioner feedback welcome.
+
 Reach out: andrewgmoran@gmail.com
+
 Please explore the repositories.
 
 
