@@ -1,8 +1,6 @@
 # Andy Moran — Quantitative Researcher
 
-**Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets.** 
-
-All results, including nulls, are reported transparently.
+**Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets.** All results, including nulls, are reported transparently.
 
 My background spans urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on problems where intuition fails, uncertainty compounds, and only disciplined modelling provides traction.
 
