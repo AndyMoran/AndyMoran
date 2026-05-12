@@ -36,6 +36,41 @@ All energy projects are built around a common discipline: pre-register the stopp
 | [Across the Water](https://github.com/AndyMoran/across-the-water) | Signal absorbed by IFA2 implicit coupling. Pre-registered DA hard gate failed at Model B. Market is efficient at this horizon. | SCM causal identification, OLS with HAC standard errors, pre-registered two-stage gate. |
 | [Ahead of the Curve](https://github.com/AndyMoran/ahead-of-the-curve) | Smart-charging signal not yet detectable. Revisit 2032 | DiD with high-frequency controls, structural change detection, diurnal shape analysis. |
 
+### Walk‑Forward Adaptive Fair‑Value Modelling for GB Balancing Spreads — Does adaptive retraining stabilise equilibrium estimates under non‑stationarity?
+
+**Result:**  
+Static equilibrium models overstate residual stress and misidentify dislocations when applied to non‑stationary BM spreads. A walk‑forward adaptive model — retrained on each step using only past information — produces materially more stable fair‑value estimates, reduces false positives, and tracks equilibrium drift without leaking future structure. Residual stress collapses under walk‑forward evaluation: large “dislocations” seen in static backtests are revealed as artefacts of look‑ahead bias and structural drift rather than genuine market mispricing.
+
+**Conclusion:**  
+Adaptive retraining is essential for fair‑value modelling in the BM. Static models systematically exaggerate stress; walk‑forward methods recover a stable, low‑noise equilibrium and eliminate spurious signals.
+
+**Techniques:**  
+Walk‑forward retraining · timestamp‑aligned BM spread construction · rolling feature engineering · XGBoost regression · residual stress diagnostics · equilibrium drift estimation · out‑of‑sample validation
+
+**Focus:**  
+Whether fair‑value estimates for BM spreads remain stable when evaluated under strict walk‑forward discipline. The project tests whether static models genuinely detect stress or simply overfit structural drift, and whether adaptive retraining can recover a consistent equilibrium signal. It evaluates residual behaviour, dislocation frequency, and equilibrium stability under both static and walk‑forward regimes, isolating the contribution of non‑stationarity to apparent market stress.
+
+**Repo:**  
+https://github.com/AndyMoran/bm-adaptive-fair-value (github.com in Bing)
+
+**Demonstrates:**
+
+- disciplined walk‑forward modelling with no future leakage
+
+- correct construction of timestamp‑aligned BM spreads
+
+- identification of structural drift vs genuine dislocations
+
+- reduction of false stress signals through adaptive retraining
+
+- robust residual diagnostics under non‑stationarity
+
+- clear separation of static backtest artefacts from true equilibrium behaviour
+
+- honest reporting of when static intuition fails under real‑time constraints
+
+
+
 ### South West Constraint Modelling — Do system‑level wind–constraint relationships hold regionally?
 
 **Result:**
