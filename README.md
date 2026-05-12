@@ -1,18 +1,16 @@
 # Andy Moran — Quantitative Researcher
 
-**Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets. Five energy projects completed. All null results reported.**
+**Quantitative researcher building physics-first signal detection and causal inference pipelines for GB electricity markets.**
 
 *Background: MSc, MPlan Manchester → probabilistic reasoning → energy market research.*
 
-My MPlan research at Manchester used Cuba's post-Soviet subsidy collapse, specifically modelling how Manchester's food system would respond to a comparable climate-driven shock, and what that implies for UK policy under energy crisis conditions. The research was interesting; the frustration was that its prescriptions couldn't be measured. I couldn't reconcile 'top-down' technocratic theory with ground-level reality. Rather than continue 'hallucinating' policies, I left the field to build things that had to work in the real world.
+I build physics‑first signal detection pipelines, walk‑forward models, and structured null tests that survive contact with real‑world data. All results — including nulls — are reported transparently.
 
-But my planning research remains relevant: Cuba is again experiencing severe energy constraints, and the system‑level responses echo the same dynamics I studied years ago. Those patterns appear today in the geopolitical volatility of the Strait of Hormuz, and this reinforced a core truth: uncertainty has a structural pattern that intuition alone cannot capture. Reading Annie Duke’s Thinking in Bets provided the necessary pivot: a move toward the formal probabilistic tools needed to reason honestly about real‑world risk.
+My background spans urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on problems where intuition fails, uncertainty compounds, and only disciplined modelling provides traction.
 
-I've now worked through the frequentist foundations and moved into Bayesian modelling. I've built projects that moved from "this seems straightforward" to "this is a lot more complicated than I thought" to "this model doesn't fit the data". I've iterated, failed, and actively invited criticism, because I want to get things right. 
+I’ve now completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same approach: pre‑register the stopping rule, run the model honestly, report the null result, and stop when the data says stop. This has included work on constraint behaviour, outage detection, implicit coupling, smart‑charging signals, and adaptive fair‑value modelling. I have also built walk‑forward equilibrium estimation, residual stress diagnostics, and regime‑dependent behaviour in GB balancing spreads — specifically, how equilibrium drifts under non‑stationarity and what that implies for storage assets before the forward curve prices it in.
 
-My project, "Detecting False Signals in Mean-Reversion Models", used Premier League xG data as a case study. It started as a search for signal and ended as a lesson in how easily rolling means create artefacts. It didn't prove what I hoped. Instead, it provided a clear demonstration of how smoothing can create spurious signals that pass every standard test. I abandoned the signal because I care about ground truth, quick empirical feedback, and models that survive contact with data, not just persuade in slide decks. If the data disagrees with the model, the data wins. I’m interested in predictive power, not models that protect an expert’s reputation.
-
-I'm now applying Bayesian modelling, regime-switching processes, causal inference, and structured null testing to GB electricity markets. The specific question: has the evening demand ramp already begun to change shape as EV adoption grows, and what is that structural shift worth to a storage asset before the forward curve prices it in?
+My current work focuses on North‑West transmission constraints, infrastructure persistence, and battery‑duration suitability. The project examines whether long‑standing congestion around B7a, Penwortham, Carrington, and Greater Manchester is creating a structural mismatch between today’s short‑duration BESS deployments and the longer‑duration flexibility required by a renewable‑heavy, transmission‑constrained grid. The emphasis is shifting from short‑lived statistical inefficiencies to slow‑moving physical bottlenecks — reinforcement delays, planning friction, and queue congestion — and how these shape the real operational value of storage assets.
 
 # Connect
 
