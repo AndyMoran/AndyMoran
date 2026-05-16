@@ -1,5 +1,5 @@
 # Andy Moran — Quantitative Researcher
-Physics‑first signal detection for GB electricity markets. Transparent reporting, nulls included.
+**Physics‑first signal detection for GB electricity markets. Transparent reporting, nulls included.**
 
 Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results — including nulls — are reported transparently.
 
