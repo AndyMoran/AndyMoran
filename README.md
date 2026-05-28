@@ -39,14 +39,23 @@ I’m particularly interested in how slow-moving physical and institutional fric
 
 The emphasis is increasingly shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
 
+## Research Approach
 
-Recent project lessons:
+Projects are specification-led rather than notebook-led.
 
-* Importance of freezing thresholds using train-only samples
-* Necessity of walk-forward / out-of-sample validation in non-stationary electricity markets
-* Need for reproducible notebook execution from clean kernel state
-* Increasing emphasis on physical system structure over purely statistical inefficiencies
+Each project begins with:
 
+* README (research framing)
+* project.md (operational rules)
+* explicit stopping criteria
+* reproducibility requirements
+* walk-forward or out-of-sample evaluation where appropriate
+
+Emphasis is placed on disciplined validation, transparent reporting of null results, and avoiding leakage in non-stationary market environments.
+
+A growing focus is the construction of reproducible analytical datasets from fragmented real-world infrastructure sources, including timestamp reconciliation, API ingestion validation, schema standardisation, and cross-system alignment.
+
+Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps separate from modelling.
 
 # Connect
 
