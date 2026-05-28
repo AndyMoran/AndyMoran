@@ -13,7 +13,7 @@ My current work focuses on North‑West transmission constraints, infrastructure
 
 ### NW BESS Constraints
 
-Investigating whether persistent transmission congestion and market-state behaviour in the GB North-West create structural advantages for different battery-duration configurations.
+Does persistent transmission congestion and market-state behaviour in the North-West create structural advantages for different battery-duration configurations.
 
 Current areas of focus:
 
@@ -26,7 +26,7 @@ Current areas of focus:
 
 ## Research Themes
 
-My work increasingly sits at the intersection of:
+My work sits at the intersection of:
 
 * electricity-market behaviour
 * physical infrastructure constraints
@@ -35,13 +35,13 @@ My work increasingly sits at the intersection of:
 * interpretable machine learning
 * NLP-assisted decision support
 
-I’m particularly interested in how slow-moving physical and institutional frictions — transmission reinforcement delays, planning constraints, queue congestion, regulatory structure, and infrastructure inertia — propagate into observable market behaviour.
+I’m interested in how slow-moving physical and institutional frictions — transmission reinforcement delays, planning constraints, queue congestion, regulatory structure, and infrastructure inertia — propagate into observable market behaviour.
 
-The emphasis is increasingly shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
+My research is shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
 
 ## Research Approach
 
-Projects are specification-led rather than notebook-led.
+Projects are specification-led not notebook-led.
 
 Each project begins with:
 
