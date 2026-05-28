@@ -9,6 +9,45 @@ I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E
 
 My current work focuses on North‑West transmission constraints, infrastructure persistence, and battery‑duration suitability. The project examines whether long‑standing congestion around B7a, Penwortham, Carrington, and Greater Manchester is creating a structural mismatch between today’s short‑duration BESS deployments and the longer‑duration flexibility required by a renewable‑heavy, transmission‑constrained grid. The emphasis is shifting from short‑lived statistical inefficiencies to slow‑moving physical bottlenecks — reinforcement delays, planning friction, and queue congestion — and how these shape the real operational value of storage assets.
 
+## Currently Working On
+
+### NW BESS Constraints
+
+Investigating whether persistent transmission congestion and market-state behaviour in the GB North-West create structural advantages for different battery-duration configurations.
+
+Current areas of focus:
+
+| Topic                  | Current Direction                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------------ |
+| Market-state detection | Identifying persistent stress regimes from imbalance spreads                                     |
+| Constraint persistence | Investigating whether physical bottlenecks create repeatable market conditions                   |
+| Duration suitability   | Comparing short-duration vs longer-duration storage under real market persistence                |
+| Methodology            | Walk-forward evaluation, train/test separation, leakage prevention, reproducible notebook design |
+
+## Research Themes
+
+My work increasingly sits at the intersection of:
+
+* electricity-market behaviour
+* physical infrastructure constraints
+* probabilistic modelling
+* planning systems
+* interpretable machine learning
+* NLP-assisted decision support
+
+I’m particularly interested in how slow-moving physical and institutional frictions — transmission reinforcement delays, planning constraints, queue congestion, regulatory structure, and infrastructure inertia — propagate into observable market behaviour.
+
+The emphasis is increasingly shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
+
+
+Recent project lessons:
+
+* Importance of freezing thresholds using train-only samples
+* Necessity of walk-forward / out-of-sample validation in non-stationary electricity markets
+* Need for reproducible notebook execution from clean kernel state
+* Increasing emphasis on physical system structure over purely statistical inefficiencies
+
+
 # Connect
 
 I’m exploring roles in energy trading, storage optimisation, and probabilistic modelling. Open to informal coffee chats—especially with people working on:
