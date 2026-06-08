@@ -14,7 +14,7 @@ I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E
 
 ## Featured Project
 
-🔹 **[GB Constraint Analytics Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)**
+**[GB Constraint Analytics Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)**
 
 A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
 
