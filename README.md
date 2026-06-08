@@ -9,13 +9,17 @@ I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E
 
 ## Current Research
 
-I’m developing the **GB Constraint Analytics Platform** — a physics-first framework for analysing transmission-constraint behaviour and storage feasibility in the Great Britain electricity system.
+## Featured Project  
+🔹 **[GB Constraint Analytics Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)**  
+A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
+
+I'm developing a three‑part analytical framework combining GB‑wide constraint screening with a detailed North‑West case study. The work characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
 
 The project originated from the observation that North-West transmission constraints appeared to exhibit persistent and operationally significant behaviour that warranted further investigation. To provide system-wide context and establish a reusable analytical framework, the full GB constraint dataset was analysed. The resulting framework combines GB-wide constraint screening with a detailed North-West case study, focusing on selected high-burden constraint groups around B7a, Penwortham, Carrington and Greater Manchester.
 
 The work characterises constraint persistence, burden concentration, clustering and operational-episode structure, and evaluates how representative storage assets perform under observed operating conditions.
 
-### Recent Findings
+### Findings
 
 For the analysed North-West constraint groups:
 
@@ -53,7 +57,7 @@ Current areas of focus:
 
 ## Research Themes
 
-My work sits at the intersection of:
+My work intersects:
 
 * electricity-market behaviour
 * physical infrastructure constraints
