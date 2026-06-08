@@ -7,13 +7,40 @@ My background spans urban systems modelling (MPlan, Manchester), Bayesian infere
 
 I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same principle: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly. I pre‑registered one project to demonstrate the workflow, but I prioritise methodological clarity over ceremony. My work spans constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
 
-## Currently Working On
+## Current Research
 
-My current work focuses on North‑West transmission constraints, infrastructure persistence, and battery‑duration suitability. The project examines whether long‑standing congestion around B7a, Penwortham, Carrington, and Greater Manchester is creating a structural mismatch between today’s short‑duration BESS deployments and the longer‑duration flexibility required by a renewable‑heavy, transmission‑constrained grid. The emphasis is shifting from short‑lived statistical inefficiencies to slow‑moving physical bottlenecks — reinforcement delays, planning friction, and queue congestion — and how these shape the real operational value of storage assets.
+I’m developing the **GB Constraint Analytics Platform** — a physics-first framework for analysing transmission-constraint behaviour and storage feasibility in the Great Britain electricity system.
 
-### NW BESS Constraints
+The project originated from the observation that North-West transmission constraints appeared to exhibit persistent and operationally significant behaviour that warranted further investigation. To provide system-wide context and establish a reusable analytical framework, the full GB constraint dataset was analysed. The resulting framework combines GB-wide constraint screening with a detailed North-West case study, focusing on selected high-burden constraint groups around B7a, Penwortham, Carrington and Greater Manchester.
 
-Does persistent transmission congestion and market-state behaviour in the North-West create structural advantages for different battery-duration configurations.
+The work characterises constraint persistence, burden concentration, clustering and operational-episode structure, and evaluates how representative storage assets perform under observed operating conditions.
+
+### Recent Findings
+
+For the analysed North-West constraint groups:
+
+* Power capability is the primary design constraint for representative storage assets.
+* Energy capacity becomes relevant only after power requirements have been satisfied.
+* Historical recovery windows are generally sufficient for full recharge between episodes, meaning state-of-charge rarely constrains subsequent operation.
+* Recharge risk is not a binding operational limitation despite meaningful episode clustering.
+* The dominant operational challenge is therefore delivering sufficient power and energy during episodes rather than recovering between them.
+
+These findings suggest that constraint episodes behave as largely independent operational challenges from a state-of-charge perspective, despite exhibiting persistence and clustering.
+
+### Part III — Constraint Economics & Flexibility Value
+
+The engineering and physical-feasibility phase of the project is now complete.
+
+The next phase will investigate:
+
+* Constraint pricing dynamics
+* Market conditions during operational episodes
+* Flexibility value and revenue capture
+* Asset opportunity under persistent physical bottlenecks
+* The economic trade-off between power capability and energy capacity
+
+The goal is to connect physical system structure with economic value using transparent, reproducible modelling, rigorous validation and disciplined null-testing.
+
 
 Current areas of focus:
 
