@@ -1,11 +1,12 @@
 # Andy Moran — Quantitative Researcher
+
 **Physics‑first signal detection for GB electricity markets. Transparent reporting, nulls included.**
 
-I'm building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results — including nulls — are reported transparently.
+I build physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results, including nulls, are reported transparently.
 
-My background is in urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on fundamental problems where intuition fails, uncertainty compounds, and only disciplined modelling gains traction.
+My background spans urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on problems where intuition fails and only disciplined modelling provides traction.
 
-I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same principle: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly. My work energy work spans constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
+I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same principle: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly. My work includes constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
 
 ---
 
