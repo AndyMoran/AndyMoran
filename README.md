@@ -9,8 +9,10 @@ I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E
 
 ## Current Research
 
-## Featured Project  
-🔹 **[GB Constraint Analytics Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)**  
+## Featured Project
+
+🔹 **[GB Constraint Analytics Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)**
+
 A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
 
 I'm developing a three‑part analytical framework combining GB‑wide constraint screening with a detailed North‑West case study. The work characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
