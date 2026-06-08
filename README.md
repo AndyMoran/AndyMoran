@@ -1,11 +1,13 @@
 # Andy Moran — Quantitative Researcher
 **Physics‑first signal detection for GB electricity markets. Transparent reporting, nulls included.**
 
-I'm a Quantitative researcher building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results,including nulls, are reported transparently.
+I'm building physics‑first signal‑detection pipelines, walk‑forward models, and structured null tests for GB electricity markets. All results — including nulls — are reported transparently.
 
-My background spans urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on problems where intuition fails, uncertainty compounds, and only disciplined modelling gains traction.
+My background is in urban systems modelling (MPlan, Manchester), Bayesian inference, and structured decision‑making under uncertainty. I moved from planning research into energy markets to work on fundamental problems where intuition fails, uncertainty compounds, and only disciplined modelling gains traction.
 
-I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same principle: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly. I pre‑registered one project to demonstrate the workflow, but I prioritise methodological clarity over ceremony. My work spans constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
+I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E data. Each project follows the same principle: use the simplest model that works, apply machine learning only when it adds genuine explanatory or predictive value, and report results honestly. My work energy work spans constraint behaviour, outage detection, implicit coupling, smart‑charging signals, adaptive fair‑value modelling, and walk‑forward equilibrium estimation for GB balancing spreads.
+
+---
 
 ## Current Research
 
@@ -15,94 +17,87 @@ I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E
 
 A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
 
-I'm developing a three‑part analytical framework combining GB‑wide constraint screening with a detailed North‑West case study. The work characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
+The platform combines **GB‑wide constraint screening** with a **detailed North‑West case study** focused on high‑burden boundaries around B7a, Penwortham, Carrington, and Greater Manchester. The work characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
 
-The project originated from the observation that North-West transmission constraints appeared to exhibit persistent and operationally significant behaviour that warranted further investigation. To provide system-wide context and establish a reusable analytical framework, the full GB constraint dataset was analysed. The resulting framework combines GB-wide constraint screening with a detailed North-West case study, focusing on selected high-burden constraint groups around B7a, Penwortham, Carrington and Greater Manchester.
+### Part I & II Findings
 
-The work characterises constraint persistence, burden concentration, clustering and operational-episode structure, and evaluates how representative storage assets perform under observed operating conditions.
+For the analysed North‑West constraint groups:
 
-### Part I and II Findings
-
-For the analysed North-West constraint groups:
-
-* Power capability is the primary design constraint for representative storage assets.
-* Energy capacity becomes relevant only after power requirements have been satisfied.
-* Historical recovery windows are generally sufficient for full recharge between episodes, meaning state-of-charge rarely constrains subsequent operation.
-* Recharge risk is not a binding operational limitation despite meaningful episode clustering.
-* The dominant operational challenge is therefore delivering sufficient power and energy during episodes rather than recovering between them.
-
-These findings suggest that constraint episodes behave as largely independent operational challenges from a state-of-charge perspective, despite exhibiting persistence and clustering.
+- **Power capability** is the primary design constraint.  
+- **Energy capacity** becomes relevant only after power requirements are met.  
+- **Recovery windows** are generally sufficient for full recharge between episodes.  
+- **Recharge risk** is not a binding operational limitation despite clustering.  
+- Constraint episodes behave as **effectively independent operational challenges** from a state‑of‑charge perspective.
 
 ### Part III — Constraint Economics & Flexibility Value
 
-The engineering and physical-feasibility phase of the project is now complete.
+The engineering and physical‑feasibility phase is complete. The next phase will examine:
 
-The next phase will investigate:
+- constraint pricing dynamics  
+- market conditions during operational episodes  
+- flexibility value and revenue capture  
+- asset opportunity under persistent physical bottlenecks  
+- the economic trade‑off between power capability and energy capacity  
 
-* Constraint pricing dynamics
-* Market conditions during operational episodes
-* Flexibility value and revenue capture
-* Asset opportunity under persistent physical bottlenecks
-* The economic trade-off between power capability and energy capacity
+The goal is to connect physical system structure with economic value using transparent, reproducible modelling and disciplined null‑testing.
 
-The goal is to connect physical system structure with economic value using transparent, reproducible modelling, rigorous validation and disciplined null-testing.
+---
 
-
-Current areas of focus:
+## Current Areas of Focus
 
 | Topic                  | Current Direction                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------------ |
-| Market-state detection | Identifying persistent stress regimes from imbalance spreads                                     |
+| Market‑state detection | Identifying persistent stress regimes from imbalance spreads                                     |
 | Constraint persistence | Investigating whether physical bottlenecks create repeatable market conditions                   |
-| Duration suitability   | Comparing short-duration vs longer-duration storage under real market persistence                |
-| Methodology            | Walk-forward evaluation, train/test separation, leakage prevention, reproducible notebook design |
+| Duration suitability   | Comparing short‑ vs long‑duration storage under real market persistence                          |
+| Methodology            | Walk‑forward evaluation, train/test separation, leakage prevention, reproducible notebook design |
+
+---
 
 ## Research Themes
 
 My work intersects:
 
-* electricity-market behaviour
-* physical infrastructure constraints
-* probabilistic modelling
-* planning systems
-* interpretable machine learning
-* NLP-assisted decision support
+- electricity‑market behaviour  
+- physical infrastructure constraints  
+- probabilistic modelling  
+- planning systems  
+- interpretable machine learning  
+- NLP‑assisted decision support  
 
-I’m interested in how slow-moving physical and institutional frictions — transmission reinforcement delays, planning constraints, queue congestion, regulatory structure, and infrastructure inertia — propagate into observable market behaviour.
+I’m interested in how slow‑moving physical and institutional frictions — reinforcement delays, planning constraints, queue congestion, regulatory structure, infrastructure inertia — propagate into observable market behaviour. My research is shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
 
-My research is shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
+---
 
 ## Research Approach
 
-Projects are specification-led not notebook-led.
+Projects are specification‑led, not notebook‑led.
 
 Each project begins with:
 
-* README (research framing)
-* project.md (operational rules)
-* explicit stopping criteria
-* reproducibility requirements
-* walk-forward or out-of-sample evaluation where appropriate
+- README (research framing)  
+- project.md (operational rules)  
+- explicit stopping criteria  
+- reproducibility requirements  
+- walk‑forward or out‑of‑sample evaluation where appropriate  
 
-Emphasis is placed on disciplined validation, transparent reporting of null results, and avoiding leakage in non-stationary market environments.
+Emphasis is placed on disciplined validation, transparent reporting of null results, and avoiding leakage in non‑stationary market environments.
 
-A growing focus is the construction of reproducible analytical datasets from fragmented real-world infrastructure sources, including timestamp reconciliation, API ingestion validation, schema standardisation, and cross-system alignment.
+A growing focus is the construction of reproducible analytical datasets from fragmented real‑world infrastructure sources — timestamp reconciliation, API ingestion validation, schema standardisation, and cross‑system alignment. Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps.
 
-Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps separate from modelling.
+---
 
 # Connect
 
-I’m exploring roles in energy trading, storage optimisation, and probabilistic modelling. Open to informal coffee chats—especially with people working on:
-- Storage optimisation & flexibility markets
-- DER price impact
-- Grid‑scale battery dispatch & constraint modelling
+I’m exploring roles in energy trading, storage optimisation, and probabilistic modelling. Open to informal coffee chats, especially with people working on:
+
+- storage optimisation & flexibility markets  
+- DER price impact  
+- grid‑scale battery dispatch & constraint modelling  
 
 Brutal adversarial practitioner feedback welcome.
 
 Reach out: andrewgmoran@gmail.com
-
-Please explore the repositories.
-
 
 # Energy Projects
 
