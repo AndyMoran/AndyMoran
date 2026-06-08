@@ -21,7 +21,7 @@ The project originated from the observation that North-West transmission constra
 
 The work characterises constraint persistence, burden concentration, clustering and operational-episode structure, and evaluates how representative storage assets perform under observed operating conditions.
 
-### Findings
+### Part I and II Findings
 
 For the analysed North-West constraint groups:
 
