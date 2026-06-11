@@ -14,6 +14,8 @@ I’ve completed six energy‑market studies using public BM, NESO, and ENTSO‑
 
 ### Featured Project — GB Constraint Analytics Platform
 
+https://github.com/AndyMoran/GB-Constraint-Analytics-Platform
+
 A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
 
 The platform combines GB‑wide constraint screening with a detailed North‑West case study focused on high‑burden boundaries around B7a, Penwortham, Carrington, and Greater Manchester.
