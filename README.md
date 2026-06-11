@@ -12,79 +12,94 @@ I’ve completed six energy‑market studies using public BM, ESO, and ENTSO‑E
 
 ## Current Research
 
-## Featured Project
-
-**[GB Constraint Analytics Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)**
+### Featured Project — GB Constraint Analytics Platform
 
 A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
 
-The platform combines **GB‑wide constraint screening** with a **detailed North‑West case study** focused on high‑burden boundaries around B7a, Penwortham, Carrington, and Greater Manchester. The work characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
+The platform combines GB‑wide constraint screening with a detailed North‑West case study focused on high‑burden boundaries around B7a, Penwortham, Carrington, and Greater Manchester.
+It characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
 
-### Part I & II Findings
+---
+
+### Part I & II — Physical & Operational Findings
 
 For the analysed North‑West constraint groups:
 
-- **Power capability** is the primary design constraint.  
-- **Energy capacity** becomes relevant only after power requirements are met.  
-- **Recovery windows** are generally sufficient for full recharge between episodes.  
-- **Recharge risk** is not a binding operational limitation despite clustering.  
-- Constraint episodes behave as **effectively independent operational challenges** from a state‑of‑charge perspective.
+- Power capability is the primary design constraint.
 
-### Part III — Constraint Economics & Flexibility Value
+- Energy capacity becomes relevant only after power requirements are met.
 
-The engineering and physical‑feasibility phase is complete. The next phase will examine:
+- Recovery windows are generally sufficient for full recharge between episodes.
 
-- constraint pricing dynamics  
-- market conditions during operational episodes  
-- flexibility value and revenue capture  
-- asset opportunity under persistent physical bottlenecks  
-- the economic trade‑off between power capability and energy capacity  
+- Recharge risk is not a binding limitation, despite meaningful clustering.
 
-The goal is to connect physical system structure with economic value using transparent, reproducible modelling and disciplined null‑testing.
+- Constraint episodes behave as effectively independent operational challenges from a state‑of‑charge perspective.
+
+These findings establish the physical and operational structure of persistent North‑West congestion.
 
 ---
 
-## Current Areas of Focus
+### Part III — Constraint Economics & System‑Level Value (NB13–NB17)
 
-| Topic                  | Current Direction                                                                                |
-| ---------------------- | ------------------------------------------------------------------------------------------------ |
-| Market‑state detection | Identifying persistent stress regimes from imbalance spreads                                     |
-| Constraint persistence | Investigating whether physical bottlenecks create repeatable market conditions                   |
-| Duration suitability   | Comparing short‑ vs long‑duration storage under real market persistence                          |
-| Methodology            | Walk‑forward evaluation, train/test separation, leakage prevention, reproducible notebook design |
+The economic and strategic phase extends the physical analysis into:
+
+- Constraint pricing dynamics
+
+- Market conditions during operational stress
+
+- Economic opportunity associated with persistent bottlenecks
+
+- Revenue capture under realistic power/energy limits
+
+Investment viability across durations
+
+- System‑level implications for developers, NESO, and Ofgem
+
+Key conclusions:
+
+- Opportunity is highly concentrated within a small number of constraint groups.
+
+- Individual BESS assets capture only a small fraction of total system opportunity.
+
+- Constraint‑management revenue alone is insufficient to support standalone investment.
+
+- Longer‑duration assets are physically aligned with persistent congestion but face higher economic hurdles.
+
+- Storage is a complementary tool — not a substitute — for transmission reinforcement.
+
+- Future flexibility requirements and current investment incentives may diverge without targeted market design.
 
 ---
 
-## Research Themes
+### Current Areas of Focus
 
-My work intersects:
+| Topic | Current Direction |
+| --- | --- |
+| **Market‑state detection** | Identifying persistent stress regimes from imbalance spreads |
+| **Constraint persistence** | Assessing whether physical bottlenecks create repeatable market conditions |
+| **Duration suitability** | Comparing short‑ vs long‑duration storage under real persistence characteristics |
+| **Methodology** | Walk‑forward evaluation, train/test separation, leakage prevention, reproducible notebook design |
 
-- electricity‑market behaviour  
-- physical infrastructure constraints  
-- probabilistic modelling  
-- planning systems  
-- interpretable machine learning  
-- NLP‑assisted decision support  
-
-I’m interested in how slow‑moving physical and institutional frictions — reinforcement delays, planning constraints, queue congestion, regulatory structure, infrastructure inertia — propagate into observable market behaviour. My research is shifting from searching for isolated statistical inefficiencies toward understanding how physical system structure creates persistent operational regimes.
-
----
-
-## Research Approach
+### Research Approach
 
 Projects are specification‑led, not notebook‑led.
 
 Each project begins with:
 
-- README (research framing)  
-- project.md (operational rules)  
-- explicit stopping criteria  
-- reproducibility requirements  
-- walk‑forward or out‑of‑sample evaluation where appropriate  
+- a README (research framing)
+
+- project.md (operational rules)
+
+- explicit stopping criteria
+
+- reproducibility requirements
+
+- walk‑forward or out‑of‑sample evaluation where appropriate
 
 Emphasis is placed on disciplined validation, transparent reporting of null results, and avoiding leakage in non‑stationary market environments.
 
-A growing focus is the construction of reproducible analytical datasets from fragmented real‑world infrastructure sources — timestamp reconciliation, API ingestion validation, schema standardisation, and cross‑system alignment. Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps.
+A growing focus is the construction of reproducible analytical datasets from fragmented real‑world infrastructure sources — timestamp reconciliation, API‑ingestion validation, schema standardisation, and cross‑system alignment.
+Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps.
 
 ---
 
