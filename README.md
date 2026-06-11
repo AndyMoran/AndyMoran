@@ -65,7 +65,7 @@ Key conclusions:
 
 - Longer‑duration assets are physically aligned with persistent congestion but face higher economic hurdles.
 
-- Storage is a complementary tool — not a substitute — for transmission reinforcement.
+- Storage is a complementary tool, not a substitute, for transmission reinforcement.
 
 - Future flexibility requirements and current investment incentives may diverge without targeted market design.
 
