@@ -12,64 +12,66 @@ I’ve completed six energy‑market studies using public BM, NESO, and ENTSO‑
 
 ## Current Research
 
-### Featured Project — GB Constraint Analytics Platform
+### Project B — Grid Connection Arbitrage & Hybrid Flexibility Economics (Active)
+
+A new research programme exploring whether hybrid BESS–renewable configurations can bypass the grid‑connection queue and unlock viable flexibility economics.
+
+Focus areas:
+
+- connection‑queue arbitrage
+
+- co‑location with curtailed renewable generation
+
+- hybrid asset revenue stacking
+
+- curtailment‑driven opportunity formation
+
+- system‑level implications for flexibility deployment
+
+This project extends the Physics Before Economics approach into the emerging frontier of hybrid flexibility and connection‑constrained development.
+
+### Completed — GB Constraint Analytics Platform
+
+A three‑part analytical framework evaluating GB transmission constraints, storage feasibility, and constraint‑relief economics. 
 
 https://github.com/AndyMoran/GB-Constraint-Analytics-Platform
 
-A multi‑layer analytical framework for understanding GB transmission constraints, storage feasibility, and flexibility economics.
+**Key results:**
 
-The platform combines GB‑wide constraint screening with a detailed North‑West case study focused on high‑burden boundaries around B7a, Penwortham, Carrington, and Greater Manchester.
-It characterises constraint persistence, burden concentration, clustering, and operational‑episode structure, and evaluates how representative storage assets perform under observed operating conditions.
+- Constraint burden is highly concentrated in a small number of North‑West boundaries. 
 
----
+- A 50 MW / 4 h BESS captures only ~1.7% of total system constraint opportunity.
 
-### Part I & II — Physical & Operational Findings
+- Constraint‑management revenues cover <5% of basic operating costs.
 
-For the analysed North‑West constraint groups:
+- A 10,000‑iteration Monte Carlo simulation shows a 0.00% probability of standalone viability.
 
-- Power capability is the primary design constraint.
+- Findings remain robust under extensive pricing, attribution, and sensitivity testing.
 
-- Energy capacity becomes relevant only after power requirements are met.
+**Conclusion:**
 
-- Recovery windows are generally sufficient for full recharge between episodes.
+Constraint revenue is structurally insufficient to support standalone storage investment; it functions only as a marginal top‑up.
 
-- Recharge risk is not a binding limitation, despite meaningful clustering.
+**Project structure:**
 
-- Constraint episodes behave as effectively independent operational challenges from a state‑of‑charge perspective.
+The platform enforces institutional‑grade analytical discipline:
 
-These findings establish the physical and operational structure of persistent North‑West congestion.
+- Modular Architecture — shared logic (DCF engines, validators, cost models) isolated in src/.
 
----
+- Data Contracts — schema, row‑count, and physical‑plausibility checks at every stage.
 
-### Part III — Constraint Economics & System‑Level Value (NB13–NB17)
+- Automated Testing — core economic engines validated with pytest and mocked fixtures.
 
-The economic and strategic phase extends the physical analysis into:
+- Adversarial Review — explicit checks for unit consistency, threshold justification, and leakage.
 
-- Constraint pricing dynamics
+Part I — Data Platform (NB01–NB07)  
+Ingestion, validation, harmonisation, and construction of constraint‑ready analytical datasets.
 
-- Market conditions during operational stress
+Part II — Constraint Behaviour & Storage Feasibility (NB08–NB12)  
+GB‑wide screening of persistence, burden, clustering, and operational archetypes, plus a detailed North‑West case study.
 
-- Economic opportunity associated with persistent bottlenecks
-
-- Revenue capture under realistic power/energy limits
-
-Investment viability across durations
-
-- System‑level implications for developers, NESO, and Ofgem
-
-Key conclusions:
-
-- Opportunity is highly concentrated within a small number of constraint groups.
-
-- Individual BESS assets capture only a small fraction of total system opportunity.
-
-- Constraint‑management revenue alone is insufficient to support standalone investment.
-
-- Longer‑duration assets are physically aligned with persistent congestion but face higher economic hurdles.
-
-- Storage is a complementary tool, not a substitute, for transmission reinforcement.
-
-- Future flexibility requirements and current investment incentives may diverge without targeted market design.
+Part III — Constraint Economics & System‑Level Value (NB13–NB18)  
+Opportunity valuation, physical revenue capture, 15‑year DCF viability, and Monte Carlo robustness analysis.
 
 ---
 
@@ -97,6 +99,8 @@ Each project begins with:
 - reproducibility requirements
 
 - walk‑forward or out‑of‑sample evaluation where appropriate
+
+- methodology.md
 
 Emphasis is placed on disciplined validation, transparent reporting of null results, and avoiding leakage in non‑stationary market environments.
 
