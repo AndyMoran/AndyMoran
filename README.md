@@ -14,7 +14,7 @@ I’ve completed six energy‑market studies using public BM, NESO, and ENTSO‑
 
 ### Project B — Grid Connection Arbitrage & Hybrid Flexibility Economics (Active)
 
-A new research programme exploring whether hybrid BESS–renewable configurations can bypass the grid‑connection queue and unlock viable flexibility economics.
+Investigating whether hybrid BESS–renewable configurations can bypass the grid‑connection queue and unlock viable flexibility economics.
 
 Focus areas:
 
@@ -34,7 +34,7 @@ This project extends the Physics Before Economics approach into the emerging fro
 
 A three‑part analytical framework evaluating GB transmission constraints, storage feasibility, and constraint‑relief economics. 
 
-https://github.com/AndyMoran/GB-Constraint-Analytics-Platform
+**Repo:** https://github.com/AndyMoran/GB-Constraint-Analytics-Platform
 
 **Key results:**
 
@@ -105,6 +105,7 @@ Each project begins with:
 Emphasis is placed on disciplined validation, transparent reporting of null results, and avoiding leakage in non‑stationary market environments.
 
 A growing focus is the construction of reproducible analytical datasets from fragmented real‑world infrastructure sources — timestamp reconciliation, API‑ingestion validation, schema standardisation, and cross‑system alignment.
+
 Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps.
 
 ---
