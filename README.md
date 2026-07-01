@@ -49,7 +49,7 @@ This project extends the Physics Before Economics approach into the emerging fro
 
 A three‑part analytical framework evaluating GB transmission constraints, storage feasibility, and constraint‑relief economics. 
 
-**See Full Repository:** https://github.com/AndyMoran/GB-Constraint-Analytics-Platform
+**See Full Repository:** [GB-Constraint-Analytics-Platform](https://github.com/AndyMoran/GB-Constraint-Analytics-Platform)
 
 **Key results:**
 
