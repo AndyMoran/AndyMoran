@@ -12,6 +12,19 @@ I’ve completed energy‑market studies using public BM, NESO, and ENTSO‑E da
 
 ## Current Research
 
+### Long‑Duration Energy Storage — Window 1 Portfolio Modelling (2026)
+
+Independent modelling of Ofgem’s Window 1 LDES projects using publicly available data. The work explores how duration, location, and technology lifecycle costs shape project‑level economics. Three consistent patterns emerge:
+
+- Duration shows a strong, linear influence on residual support needs.
+
+- Assets behind the SSEN‑S constraint zone exhibit materially higher curtailment‑adjusted costs.
+
+- PSH assets appear structurally resilient, with near‑zero residual floor requirements under central and IDC‑stress assumptions.
+
+Exploratory analysis intended to support understanding of how physical duration and geographic constraints interact with lifecycle economics.
+
+
 ### Project B — Grid Connection Arbitrage & Hybrid Flexibility Economics (Active)
 
 Investigating whether hybrid BESS–renewable configurations can bypass the grid‑connection queue and unlock viable flexibility economics.
