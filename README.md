@@ -24,7 +24,7 @@ Independent modelling of Ofgem’s Window 1 LDES projects using publicly availab
 
 Exploratory analysis intended to support understanding of how physical duration and geographic constraints interact with lifecycle economics.
 
-**Repo** [LDES Window 1 Modelling](https://github.com/AndyMoran/ldes-window1-modelling)
+**Repo** [LDES Window 1 Modelling](https://github.com/AndyMoran/ldes-window1-modelling) 
 
 
 ### Project B — Grid Connection Arbitrage & Hybrid Flexibility Economics (Active)
