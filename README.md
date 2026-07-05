@@ -183,40 +183,43 @@ https://github.com/AndyMoran/bm-adaptive-fair-value (github.com in Bing)
 
 - honest reporting of when static intuition fails under real‑time constraints
 
-
-
-### South West Constraint Modelling — Do system‑level wind–constraint relationships hold regionally?
+## South West Constraint Modelling — Do system-level wind–constraint relationships hold regionally?
 
 **Result:**
-System‑level analysis shows a strong positive relationship between wind generation and constraint probability (rising from ~3% to ~11%, a ~3× increase). However, this relationship does not generalise to the South West. Regional constraint events remain rare (~3%), show a weak or slightly negative relationship with wind, and exhibit only modest non‑linear structure. Random Forest models detect interaction effects between wind and demand, but empirical validation shows these effects are small and do not materially elevate risk.
+System-level analysis shows a strong positive relationship between GB wind generation and constraint probability, with estimated risk rising from ~3% to ~11% at high wind levels — around a 3× increase.
 
-**Conclusion:** regional constraint behaviour diverges from system‑level patterns; effect sizes are low.
+However, this relationship does **not** generalise to the South West. Regional constraint events remain rare (~3%), show a weak or slightly negative relationship with GB-wide wind, and exhibit only modest non-linear structure. Random Forest models detect some interaction effects between wind and demand, but empirical validation shows these effects are small and do not materially elevate risk.
 
-**Techniques:**  
-Settlement‑period alignment · BM volume construction · percentile‑based event definition · logistic regression · interaction modelling · Random Forest (non‑linear structure) · partial dependence analysis · empirical validation
+**Key interpretation:**
+The South West does not behave like the GB system as a whole. GB-wide wind is not the right physical proxy for South West constraint behaviour. Unlike constraint-heavy regions dominated by large wind export flows, the South West has a different local asset mix, with constraint dynamics more likely shaped by embedded solar, local demand, reverse-flow conditions and regional network limits.
 
-**Focus:**  
-Whether the system‑level relationship between wind generation and constraint risk — a clear, monotonic increase — also appears in the South West region. The project tests whether regional constraint events can be explained by wind, demand, or their interaction, and whether non‑linear structure meaningfully elevates risk across operating conditions.
+**Conclusion:**
+Regional constraint behaviour diverges from system-level patterns. The main finding is not simply that “wind does not matter”, but that **regional constraints must be modelled using regionally relevant physical drivers**.
 
-**Repo:**  
+**Techniques:**
+Settlement-period alignment · BM volume construction · percentile-based event definition · logistic regression · interaction modelling · Random Forest non-linear analysis · partial dependence analysis · empirical heatmap validation
+
+**Focus:**
+The project tests whether the system-level relationship between wind generation and constraint risk — a clear, monotonic increase — also appears in the South West. It examines whether regional constraint events can be explained by GB wind, demand, or their interaction, and whether non-linear structure meaningfully elevates risk across operating conditions.
+
+**Repo:**
 https://github.com/AndyMoran/sw-restraint-modelling
 
 **Demonstrates:**
-- clean construction of a complete settlement‑period dataset (17,520 SPs)
 
-- correct use of percentile‑based thresholds for regional BM activity
+* Clean construction of a complete settlement-period dataset covering 17,520 settlement periods
+* Robust construction of regional Balancing Mechanism activity measures
+* Use of percentile-based thresholds for regional constraint-event definition
+* Disciplined comparison of system-level and regional behaviour
+* Identification of non-linear structure without over-interpreting weak model signals
+* Empirical validation via binned heatmaps to avoid treating model artefacts as reality
+* Honest reporting of low-magnitude effects and region-specific dynamics
+* Clear articulation of when system-level intuition fails at regional scale
+* Extraction of a simple three-regime rule of thumb from the available wind–demand feature space: a ~26% no-event zone, an ~8% elevated-risk zone with a ~4.8% event rate, and a neutral baseline of ~3.1%
+* A physically grounded next-step insight: future regional modelling should replace GB-wide wind with local solar, net demand, embedded generation and reverse-flow indicators
 
-- disciplined comparison of system‑level vs regional behaviour
 
-- identification of non‑linear structure without over‑interpreting weak signals
 
-- empirical validation via binned heatmaps to avoid model hallucination
-
-- honest reporting of low‑magnitude effects and region‑specific dynamics
-
-- clear articulation of when system‑level intuition fails at regional scale
-
-- extraction of a simple three‑regime “rule of thumb”: a 26% no‑risk zone (low wind, low demand), an 8% elevated‑risk zone (high wind, high demand, ~ 4.8% event rate), and a neutral baseline (~ 3.1% event rate) showing that constraint risk is fundamentally state‑dependent rather than monotonic in wind alone
 
 ### Overnight Recharge — Does BESS depletion suppress GB overnight prices?
 
