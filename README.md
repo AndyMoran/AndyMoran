@@ -38,6 +38,11 @@ Report null results honestly
 
 Walk‑forward modelling · timestamp‑aligned BM spreads · Monte Carlo simulation · Bayesian inference · causal identification · reproducible dataset construction · adversarial validation
 
+### Deep Dive
+If you want the full modelling philosophy, project deep dives, and research notes, see the:  
+[Energy Modelling Deep Dive](./deep-dive/energy-modelling.md)
+
+
 **Contact**
 
 andrewgmoran@gmail.com
