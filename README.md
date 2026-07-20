@@ -31,7 +31,6 @@ Before returning to applied quantitative work, I worked as a Principal Technical
 
 My projects are built around a common workflow:
 
-```text
 messy operational data
 → reproducible pipeline
 → physical/event model
