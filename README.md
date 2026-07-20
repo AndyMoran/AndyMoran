@@ -300,5 +300,7 @@ Areas of particular interest:
 **Contact**
 
 Email: andrewgmoran@gmail.com
+
 GitHub: github.com/AndyMoran
+
 LinkedIn: www.linkedin.com/in/andy-graham-moran/
