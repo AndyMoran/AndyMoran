@@ -27,24 +27,6 @@ Exploratory analysis intended to support understanding of how physical duration 
 **See full Repository:** [LDES Window 1 Modelling](https://github.com/AndyMoran/ldes-window1-modelling)
 
 
-### Project B — Grid Connection Arbitrage & Hybrid Flexibility Economics (Active)
-
-Investigating whether hybrid BESS–renewable configurations can bypass the grid‑connection queue and unlock viable flexibility economics.
-
-Focus areas:
-
-- connection‑queue arbitrage
-
-- co‑location with curtailed renewable generation
-
-- hybrid asset revenue stacking
-
-- curtailment‑driven opportunity formation
-
-- system‑level implications for flexibility deployment
-
-This project extends the Physics Before Economics approach into the emerging frontier of hybrid flexibility and connection‑constrained development.
-
 ### Completed — GB Constraint Analytics Platform
 
 A three‑part analytical framework evaluating GB transmission constraints, storage feasibility, and constraint‑relief economics. 
@@ -124,18 +106,6 @@ A growing focus is the construction of reproducible analytical datasets from fra
 Data engineering, QA, and reproducibility are treated as core components of the research process rather than preprocessing steps.
 
 ---
-
-# Connect
-
-I'm exploring roles in energy trading, storage optimisation, and probabilistic modelling. Open to informal coffee chats, especially with people working on:
-
-- storage optimisation & flexibility markets  
-- DER price impact  
-- grid‑scale battery dispatch & constraint modelling  
-
-Brutal adversarial practitioner feedback welcome.
-
-**Reach out:** andrewgmoran@gmail.com
 
 # Energy Projects
 
@@ -217,9 +187,6 @@ https://github.com/AndyMoran/sw-restraint-modelling
 * Clear articulation of when system-level intuition fails at regional scale
 * Extraction of a simple three-regime rule of thumb from the available wind–demand feature space: a ~26% no-event zone, an ~8% elevated-risk zone with a ~4.8% event rate, and a neutral baseline of ~3.1%
 * A physically grounded next-step insight: future regional modelling should replace GB-wide wind with local solar, net demand, embedded generation and reverse-flow indicators
-
-
-
 
 ### Overnight Recharge — Does BESS depletion suppress GB overnight prices?
 
@@ -318,7 +285,9 @@ The null result is commercially useful: the smart charging effect is not yet pri
 - sunset‑adjusted diurnal window construction
 - minimum detectable effect estimation and revisit threshold quantification
 
-# Premier League Data Analytics
+# Other Projects
+
+### Premier League Data Analytics
 
 Evidence‑driven investigations into how the Premier League works. Do expected goals predict match outcomes? Did VAR reshape home advantage? Each project answers a specific football question with data, modelling, and clear results.
 
@@ -370,7 +339,7 @@ A Bayesian investigation into whether VAR changed home advantage. Includes a ful
 - translating statistical findings into business‑ready insights
 
 
-# Probabilistic Modelling
+## Probabilistic Modelling
 
 The methods below use hierarchical Bayesian inference, simulation-based decision-making, and reliability modelling.
 
