@@ -38,6 +38,15 @@ Report null results honestly
 
 Walk‑forward modelling · timestamp‑aligned BM spreads · Monte Carlo simulation · Bayesian inference · causal identification · reproducible dataset construction · adversarial validation
 
+## Project Philosophy
+
+Every project follows the same discipline: physics first, specification‑led design, and honest reporting of nulls.  
+Models are walk‑forward, leakage‑checked, and evaluated only on information available at decision time.  
+Data pipelines are reproducible, schema‑validated, and built to survive adversarial review.  
+Machine learning is used sparingly — only when it adds genuine explanatory or predictive value.  
+Stopping rules are pre‑registered, and projects end when the data says stop.  
+Results are reported transparently, including where intuition fails or the signal is commercially useless.
+
 ### Deep Dive
 If you want the full modelling philosophy, project deep dives, and research notes, see the:  
 [Energy Modelling Deep Dive](./deep-dive/energy-modelling.md)
