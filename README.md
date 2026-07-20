@@ -316,6 +316,6 @@ GitHub:[github.com/AndyMoran
 
 LinkedIn: www.linkedin.com/in/andy-graham-moran/
 
-### Deep Dive
-Here be Dragons. If you want the full modelling philosophy, project deep dives, and research notes, see the:  
+### Deeper Dives
+Here be dragons, and other non-energy models. If you need more summary detail without going to the repositories go here:  
 [Energy Modelling Deep Dive](./deep-dive/energy-modelling.md)
