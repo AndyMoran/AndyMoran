@@ -1,6 +1,6 @@
 # Andy Moran — Quantitative Researcher (Energy & Probabilistic Modelling)
 
-Physics‑first signal detection for GB electricity markets. I build disciplined, walk‑forward models that survive contact with real data. All results — including nulls — are reported transparently.
+Physics‑first signal detection for GB electricity markets. I build disciplined, walk‑forward models that survive contact with real data. All results,including nulls, are reported transparently.
 
 **Focus areas:**
 
