@@ -85,6 +85,8 @@ Methods used:
 - policy interpretation;
 - reproducible Python/Jupyter workflows.
 
+LDES Window 1 Modelling — https://github.com/AndyMoran/ldes-window1-modelling
+
 ---
 
 ## Tenant-Safe VPP Flexibility Accreditation
@@ -115,6 +117,8 @@ The result is a **Tenant-Safe Flexibility Factor** rather than a simple nameplat
 
 This is designed for VPPs, social housing, domestic battery fleets, DNO/NESO flexibility products and consumer-protection-aware grid services.
 
+Tenant‑Safe VPP Flexibility — https://github.com/AndyMoran/tenant-safe-vpp-flexibility
+
 ---
 
 ## South West Domestic Battery VPP Model
@@ -142,6 +146,8 @@ A useful VPP must be:
 
 This project links wholesale price signals, local constraint value, consumer behaviour and event-time deliverability.
 
+South West Domestic Battery VPP — https://github.com/AndyMoran/sw-vpp-domestic-battery
+
 ## South West Constraint Modelling
 
 Analysis of regional constraint behaviour in the South West using Elexon BOALF and Balancing Mechanism data.
@@ -162,6 +168,8 @@ Methods used:
 - VWAP accepted-price metrics;
 - regional BMU classification;
 - seasonal event analysis.
+
+South West Constraint Modelling — https://github.com/AndyMoran/sw-restraint-modelling
 
 ---
 
@@ -192,6 +200,8 @@ The project evaluates sites by:
 - planning and local impact.
 
 This extends the VPP work into strategic demand siting and infrastructure policy.
+
+Scotland AI Split‑Zones — https://github.com/AndyMoran/scotland-ai-split-zones 
 
 ---
 
@@ -305,3 +315,7 @@ GitHub:[github.com/AndyMoran
 ](https://github.com/AndyMoran)
 
 LinkedIn: www.linkedin.com/in/andy-graham-moran/
+
+### Deep Dive
+Here be Dragons. If you want the full modelling philosophy, project deep dives, and research notes, see the:  
+[Energy Modelling Deep Dive](./deep-dive/energy-modelling.md)
