@@ -2,7 +2,7 @@
 
 Physics‑first signal detection for GB electricity markets. I build disciplined, walk‑forward models that survive contact with real data. All results — including nulls — are reported transparently.
 
-Focus areas:
+**Focus areas:**
 
 GB balancing spreads, constraint behaviour, outage detection
 
@@ -12,7 +12,7 @@ Bayesian inference, walk‑forward validation, leakage prevention
 
 Structured decision‑making under uncertainty
 
-Principles:
+**Principles:**
 
 Pre‑register the stopping rule
 
@@ -22,20 +22,24 @@ Avoid leakage in non‑stationary markets
 
 Report null results honestly
 
-Selected Energy Projects
-LDES Window 1 Modelling — Duration, location, and lifecycle economics for Ofgem’s Window 1 portfolio.
+## Selected Energy Projects
 
-Hybrid Flexibility Economics — Grid‑connection arbitrage & hybrid BESS‑renewable feasibility.
+- LDES Window 1 Modelling — Duration, location, and lifecycle economics for Ofgem’s Window 1 portfolio.
 
-GB Constraint Analytics Platform — Constraint behaviour, storage feasibility, and system‑level economics.
+- Hybrid Flexibility Economics — Grid‑connection arbitrage & hybrid BESS‑renewable feasibility.
 
-Walk‑Forward Fair‑Value Modelling — Adaptive equilibrium estimation for GB balancing spreads.
+- GB Constraint Analytics Platform — Constraint behaviour, storage feasibility, and system‑level economics.
 
-South West Constraint Modelling — Region‑specific constraint behaviour vs system‑level intuition.
+- Walk‑Forward Fair‑Value Modelling — Adaptive equilibrium estimation for GB balancing spreads.
 
-Selected Methods
+- South West Constraint Modelling — Region‑specific constraint behaviour vs system‑level intuition.
+
+**Selected Methods**
+
 Walk‑forward modelling · timestamp‑aligned BM spreads · Monte Carlo simulation · Bayesian inference · causal identification · reproducible dataset construction · adversarial validation
 
-Contact
+**Contact**
+
 andrewgmoran@gmail.com
+
 Open to roles in energy trading, storage optimisation, and probabilistic modelling.
