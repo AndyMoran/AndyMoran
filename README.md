@@ -1,59 +1,40 @@
-# Andy Moran — Quantitative Researcher (Energy & Probabilistic Modelling)
+# Andy Moran
 
-Physics‑first signal detection for GB electricity markets. I build disciplined, walk‑forward models that survive contact with real data. All results,including nulls, are reported transparently.
+## Applied Data Scientist & Quantitative Modeller  
+### Energy Systems · Infrastructure Analytics · Physics-First Simulation · Decision-Making Under Uncertainty
 
-**Focus areas:**
+I build reproducible analytical projects that turn messy real-world operational data into structured evidence, quantitative models and decision-ready insight.
 
-GB balancing spreads, constraint behaviour, outage detection
+My current focus is GB electricity markets and energy-system transition: storage, flexibility, constraints, VPPs, LDES, curtailment, locational value and market-design incentives.
 
-Hybrid flexibility economics & long‑duration storage
+The wider theme is broader than energy:
 
-Bayesian inference, walk‑forward validation, leakage prevention
+> **How do complex infrastructure systems behave under stress, and what decisions become possible when the data is cleaned, structured, modelled and explained properly?**
 
-Structured decision‑making under uncertainty
+My work combines:
 
-**Principles:**
+- data engineering;
+- physical system modelling;
+- economic and financial modelling;
+- Monte Carlo simulation;
+- uncertainty analysis;
+- event detection;
+- causal discipline;
+- technical communication;
+- policy-facing interpretation.
 
-Pre‑register the stopping rule
+Before returning to applied quantitative work, I worked as a Principal Technical Writer at Oracle, translating complex enterprise software into clear documentation, setup manuals, in-product text and user-facing guidance. That background still shapes how I work: models should not just run; they should be inspectable, explainable and useful.
 
-Use the simplest model that works
+---
 
-Avoid leakage in non‑stationary markets
+## Current Research Programme
 
-Report null results honestly
+My projects are built around a common workflow:
 
-## Selected Energy Projects
-
-- LDES Window 1 Modelling — Duration, location, and lifecycle economics for Ofgem’s Window 1 portfolio.
-
-- Hybrid Flexibility Economics — Grid‑connection arbitrage & hybrid BESS‑renewable feasibility.
-
-- GB Constraint Analytics Platform — Constraint behaviour, storage feasibility, and system‑level economics.
-
-- Walk‑Forward Fair‑Value Modelling — Adaptive equilibrium estimation for GB balancing spreads.
-
-- South West Constraint Modelling — Region‑specific constraint behaviour vs system‑level intuition.
-
-**Selected Methods**
-
-Walk‑forward modelling · timestamp‑aligned BM spreads · Monte Carlo simulation · Bayesian inference · causal identification · reproducible dataset construction · adversarial validation
-
-## Project Philosophy
-
-Every project follows the same discipline: physics first, specification‑led design, and honest reporting of nulls.  
-Models are walk‑forward, leakage‑checked, and evaluated only on information available at decision time.  
-Data pipelines are reproducible, schema‑validated, and built to survive adversarial review.  
-Machine learning is used sparingly — only when it adds genuine explanatory or predictive value.  
-Stopping rules are pre‑registered, and projects end when the data says stop.  
-Results are reported transparently, including where intuition fails or the signal is commercially useless.
-
-### Deep Dive
-If you want the full modelling philosophy, project deep dives, and research notes, see the:  
-[Energy Modelling Deep Dive](./deep-dive/energy-modelling.md)
-
-
-**Contact**
-
-andrewgmoran@gmail.com
-
-Open to roles in energy trading, storage optimisation, and probabilistic modelling.
+```text
+messy operational data
+→ reproducible pipeline
+→ physical/event model
+→ economic or policy interpretation
+→ uncertainty / sensitivity testing
+→ decision-ready output
