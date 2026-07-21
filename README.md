@@ -146,7 +146,7 @@ A useful VPP must be:
 
 This project links wholesale price signals, local constraint value, consumer behaviour and event-time deliverability.
 
-South West Domestic Battery VPP — https://github.com/AndyMoran/sw-vpp-domestic-battery
+South West Domestic Battery VPP — https://github.com/AndyMoran/sw-vpp-locational-value
 
 ## South West Constraint Modelling
 
