@@ -88,6 +88,45 @@ Methods used:
 LDES Window 1 Modelling — https://github.com/AndyMoran/ldes-window1-modelling
 
 ---
+## South West Locational Dispatch Risk Model
+
+A walk‑forward machine‑learning demonstrator testing whether a 25MW / 50MWh South West VPP can manage locational dispatch risk during real constraint events.
+
+The core question:
+
+> When the grid is stressed, is the battery in the right state of charge, in the right location, at the right time, moving power in the right direction?
+
+The work compares:
+
+- naive national price-following dispatch;
+
+- ML‑informed pre‑positioning using calibrated event‑probability scores;
+
+- strict walk‑forward training (2024 only) and full‑year hold‑out testing (2025);
+
+- Monte Carlo revenue distribution analysis using real constraint‑event structures.
+
+Key concept:
+
+A useful merchant battery must be:
+
+- in the right place;
+
+- at the right time;
+
+- with enough state of charge;
+
+- moving power in the right direction.
+
+Locational dispatch risk is the blind spot national price models miss: the operational penalty of being physically unprepared when local network stress occurs.
+
+**Results:**
+
++301% annual constraint‑event revenue (≈£15.5k → £62.4k) and an 80% reduction in daily CVaR (–£250 → –£50), driven by calibrated probability‑based pre‑positioning rather than perfect foresight.
+
+South West Locational Dispatch Risk — https://github.com/AndyMoran/uk-bess-dispatch-risk 
+
+---
 
 ## Tenant-Safe VPP Flexibility Accreditation
 
